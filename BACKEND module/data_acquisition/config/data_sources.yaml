@@ -1,0 +1,98 @@
+# CARIVIX AI - Data Source Configuration
+# Module 1: Data Acquisition Engine
+# Add / edit data sources here without touching any import code.
+
+csv_sources:
+  census_data:
+    path: "data/raw/census_data.csv"
+    delimiter: ","
+    encoding: "utf-8"
+    has_header: true
+    dtype_overrides: {}          # e.g. {"district_code": "str"}
+    parse_dates: []              # e.g. ["report_date"]
+
+  budget_reports:
+    path: "data/raw/budget_reports.csv"
+    delimiter: ","
+    encoding: "utf-8"
+    has_header: true
+    dtype_overrides: {}
+    parse_dates: ["fiscal_year"]
+
+excel_sources:
+  company_financials:
+    path: "data/raw/company_financials.xlsx"
+    sheet_name: "Sheet1"         # or 0 for first sheet, or "all" for every sheet
+    header_row: 0
+    skip_rows: 0
+    dtype_overrides: {}
+
+  annual_reports:
+    path: "data/raw/annual_reports.xlsx"
+    sheet_name: "all"
+    header_row: 0
+    skip_rows: 0
+    dtype_overrides: {}
+
+json_sources:
+  government_open_data:
+    path: "data/raw/government_open_data.json"
+    encoding: "utf-8"
+    record_path: "results.records"   # dotted path to the nested list of records
+    normalize: true                   # flatten nested JSON into a flat table
+
+  news_articles:
+    path: "data/raw/news_articles.json"
+    encoding: "utf-8"
+    record_path: "articles"
+    normalize: true
+
+api_sources:
+  open_data_portal:
+    base_url: "https://api.example-govdata.gov/v1"
+    endpoint: "/datasets/economic-indicators"
+    method: "GET"
+    auth_type: "api_key"          # none | api_key | bearer | basic
+    api_key_env_var: "OPEN_DATA_API_KEY"
+    headers: {}
+    params:
+      format: "json"
+      limit: 1000
+    timeout_seconds: 30
+    retries: 3
+    paginate: true
+    pagination:
+      type: "page_param"          # page_param | offset_param | cursor
+      page_param: "page"
+      page_size_param: "limit"
+      page_size: 100
+
+  weather_stations:
+    base_url: "https://api.example-weather.com/v2"
+    endpoint: "/stations/observations"
+    method: "GET"
+    auth_type: "bearer"
+    api_key_env_var: "WEATHER_API_TOKEN"
+    headers: {}
+    params:
+      region: "IN"
+    timeout_seconds: 20
+    retries: 3
+    paginate: false
+
+# Global defaults applied when a source doesn't override them
+defaults:
+  csv:
+    delimiter: ","
+    encoding: "utf-8"
+    has_header: true
+  excel:
+    sheet_name: 0
+    header_row: 0
+  json:
+    encoding: "utf-8"
+    normalize: true
+  api:
+    method: "GET"
+    timeout_seconds: 30
+    retries: 3

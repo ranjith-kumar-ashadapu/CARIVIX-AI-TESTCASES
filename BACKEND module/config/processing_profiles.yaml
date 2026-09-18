@@ -1,0 +1,17 @@
+company_financials:
+  dedup_subset: null
+  normalize_cols:
+    - revenue
+  date_col: report_date
+  categorical_cols:
+    - region
+
+economic_indicators:
+  dedup_subset:
+    - country
+    - year
+  normalize_cols:
+    - value
+  date_col: null
+  categorical_cols:
+    - indicator

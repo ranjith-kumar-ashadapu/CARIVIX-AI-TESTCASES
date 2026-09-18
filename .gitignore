@@ -1,0 +1,21 @@
+# Python / Pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+*.pyo
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch & Temporary Logs
+test_output.txt
+temp_import_test.py
+*.log
