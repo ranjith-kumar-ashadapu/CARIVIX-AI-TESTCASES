@@ -490,15 +490,19 @@ def test_neg_c05_xfail_nonexistent_table_wrongly_expects_200(backend_api: APIReq
 
 
 # ===========================================================================
-# SECTION D – Genuine FAIL tests  (no xfail – appear as FAIL in report)
+# SECTION D – Intended FAIL tests (marked xfail so CI passes with expected failure)
 # Purpose : Demonstrate what a real regression failure looks like in the report
 # ===========================================================================
 
 @pytest.mark.neg
 @pytest.mark.backend
+@pytest.mark.xfail(
+    strict=True,
+    reason="[INTENDED FAIL] TC-NEG-D01: Asserts status='running' instead of 'ok' to demonstrate failure detection.",
+)
 def test_neg_d01_genuine_fail_health_body_wrong_status_value(backend_api: APIRequestContext):
     """
-    TC-NEG-D01 [GENUINE FAIL] – Asserts health body has status='running'.
+    TC-NEG-D01 [INTENDED FAIL] – Asserts health body has status='running'.
 
     Why: Health body actually contains status='ok'.
     Demonstrates: How a bug in status-field naming would appear in CI.
@@ -512,9 +516,13 @@ def test_neg_d01_genuine_fail_health_body_wrong_status_value(backend_api: APIReq
 
 @pytest.mark.neg
 @pytest.mark.backend
+@pytest.mark.xfail(
+    strict=True,
+    reason="[INTENDED FAIL] TC-NEG-D02: Asserts 'net_profit' column in response to demonstrate failure detection.",
+)
 def test_neg_d02_genuine_fail_process_wrong_column_in_response(backend_api: APIRequestContext):
     """
-    TC-NEG-D02 [GENUINE FAIL] – Asserts processed data has column 'net_profit'.
+    TC-NEG-D02 [INTENDED FAIL] – Asserts processed data has column 'net_profit'.
 
     Why: The company_financials profile does not produce a 'net_profit' column.
     Demonstrates: How a missing KPI column would fail in regression.
@@ -533,9 +541,13 @@ def test_neg_d02_genuine_fail_process_wrong_column_in_response(backend_api: APIR
 
 @pytest.mark.neg
 @pytest.mark.backend
+@pytest.mark.xfail(
+    strict=True,
+    reason="[INTENDED FAIL] TC-NEG-D03: Asserts rows_written=99 instead of 1 to demonstrate failure detection.",
+)
 def test_neg_d03_genuine_fail_store_expects_wrong_rows_written(backend_api: APIRequestContext):
     """
-    TC-NEG-D03 [GENUINE FAIL] – Stores 1 record but asserts 99 were written.
+    TC-NEG-D03 [INTENDED FAIL] – Stores 1 record but asserts 99 were written.
 
     Why: Only 1 record is provided, so rows_written == 1, not 99.
     Demonstrates: Regression detection for write-count verification.
