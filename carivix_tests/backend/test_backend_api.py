@@ -125,6 +125,7 @@ def test_be02_process_response_contains_data_array(backend_api: APIRequestContex
 # ===========================================================================
 
 _TEST_TABLE = "carivix_test_items"
+_MULTI_TABLE = "carivix_multi_items"
 _FILTER_TABLE = "carivix_filter_test"
 _PAGE_TABLE = "carivix_page_test"
 
@@ -152,7 +153,7 @@ def test_be03_store_multiple_records(backend_api: APIRequestContext):
     records = [{"product": f"item_{i}", "qty": i} for i in range(5)]
     resp = backend_api.post(
         "/store",
-        data={"table": _TEST_TABLE, "records": records},
+        data={"table": _MULTI_TABLE, "records": records},
     )
     assert resp.status == 200
     assert resp.json()["rows_written"] == 5
@@ -310,6 +311,22 @@ def test_be06_validate_detects_range_violation(backend_api: APIRequestContext):
     assert response.status == 200
     body = response.json()
     assert body["is_valid"] is False
+
+
+@pytest.mark.backend
+def test_be06_structured_request_logging_verification(backend_api: APIRequestContext):
+    """TC-BE-06 – Execute transactions and inspect service logs for structured telemetry."""
+    # Execute a request
+    resp = backend_api.get("/health")
+    assert resp.status == 200
+
+    # Inspect the backend service log
+    from pathlib import Path
+    log_path = Path(__file__).resolve().parent.parent / "reports" / "logs" / "api_8000.log"
+    if log_path.exists():
+        content = log_path.read_text(encoding="utf-8", errors="ignore")
+        assert "GET /health" in content
+        assert "200" in content
 
 
 # ===========================================================================

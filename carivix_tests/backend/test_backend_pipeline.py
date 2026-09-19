@@ -133,18 +133,26 @@ def test_be03_concurrent_store_requests_all_succeed(backend_api: APIRequestConte
     errors: list[str] = []
     results: list[dict] = []
 
+    import json
+    import urllib.request
+
+    base_url = "http://127.0.0.1:8000"
+
     def store_one(worker_id: int) -> None:
         try:
-            # Each thread gets its own Playwright context via the shared session fixture.
-            # We call backend_api directly – APIRequestContext is thread-safe for read
-            # but we create per-request calls that are serialised by the HTTP stack.
-            resp = backend_api.post(
-                "/store",
-                data={"table": table, "records": [{"worker": worker_id, "value": f"w{worker_id}"}]},
+            payload = json.dumps({
+                "table": table,
+                "records": [{"worker": worker_id, "value": f"w{worker_id}"}],
+            }).encode("utf-8")
+            req = urllib.request.Request(
+                f"{base_url}/store",
+                data=payload,
+                headers={"Content-Type": "application/json", "Accept": "application/json"},
             )
-            results.append({"worker": worker_id, "status": resp.status})
-            if resp.status != 200:
-                errors.append(f"Worker {worker_id} got HTTP {resp.status}")
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                results.append({"worker": worker_id, "status": resp.status})
+                if resp.status != 200:
+                    errors.append(f"Worker {worker_id} got HTTP {resp.status}")
         except Exception as exc:  # noqa: BLE001
             errors.append(f"Worker {worker_id} raised: {exc}")
 
@@ -164,26 +172,41 @@ def test_be03_concurrent_store_requests_all_succeed(backend_api: APIRequestConte
 def test_be03_concurrent_read_write_no_errors(backend_api: APIRequestContext):
     """TC-BE-03 – Simultaneous reads and writes to the same table complete without error."""
     table = "carivix_rw_test"
-    # Seed with initial data
-    backend_api.post("/store", data={"table": table, "records": [{"seed": 1}]})
+    # Seed with initial data (matching 'val' column)
+    backend_api.post("/store", data={"table": table, "records": [{"val": 0}]})
 
+    import json
+    import urllib.request
+    from urllib.error import HTTPError
+
+    base_url = "http://127.0.0.1:8000"
     errors: list[str] = []
 
     def write_worker(i: int) -> None:
         try:
-            r = backend_api.post("/store", data={"table": table, "records": [{"val": i}]})
-            if r.status != 200:
-                errors.append(f"Write {i} → {r.status}")
+            payload = json.dumps({"table": table, "records": [{"val": i}]}).encode("utf-8")
+            req = urllib.request.Request(
+                f"{base_url}/store",
+                data=payload,
+                headers={"Content-Type": "application/json"},
+            )
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                if resp.status != 200:
+                    errors.append(f"Write {i} → {resp.status}")
         except Exception as exc:
-            errors.append(str(exc))
+            errors.append(f"Write {i} error: {exc}")
 
     def read_worker(i: int) -> None:
         try:
-            r = backend_api.get(f"/retrieve/{table}")
-            if r.status not in (200, 404):
-                errors.append(f"Read {i} → {r.status}")
+            req = urllib.request.Request(f"{base_url}/retrieve/{table}")
+            with urllib.request.urlopen(req, timeout=5) as resp:
+                if resp.status not in (200, 404):
+                    errors.append(f"Read {i} → {resp.status}")
+        except HTTPError as e:
+            if e.code not in (200, 404):
+                errors.append(f"Read {i} → HTTP {e.code}")
         except Exception as exc:
-            errors.append(str(exc))
+            errors.append(f"Read {i} error: {exc}")
 
     threads = (
         [threading.Thread(target=write_worker, args=(i,)) for i in range(5)]

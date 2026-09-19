@@ -62,12 +62,13 @@ def process_data(request: ProcessRequest):
         df = pd.DataFrame(request.records)
         wf = ProcessingWorkflow()
         result = wf.run_with_profile(df, request.profile)
+        result = result.astype(object).where(pd.notnull(result), None)
         return ProcessResponse(
             row_count=len(result),
             columns=list(result.columns),
             data=result.to_dict(orient="records"),
         )
-    except ProcessingWorkflowError as e:
+    except (ProcessingWorkflowError, ValueError, KeyError) as e:
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Unexpected error: {e}")
@@ -147,7 +148,8 @@ def run_pipeline(request: PipelineRequest):
         df = pd.DataFrame(request.records)
         wf = ProcessingWorkflow()
         processed = wf.run_with_profile(df, request.profile)
-    except ProcessingWorkflowError as e:
+        processed = processed.astype(object).where(pd.notnull(processed), None)
+    except (ProcessingWorkflowError, ValueError, KeyError) as e:
         raise HTTPException(status_code=400, detail=str(e))
 
     try:

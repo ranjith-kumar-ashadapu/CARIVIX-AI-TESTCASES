@@ -56,23 +56,23 @@ class DatabaseManager:
     # -- schema helpers ---------------------------------------------------------
     def create_table(self, table: str, columns: dict[str, str], if_not_exists: bool = True) -> None:
         """columns: {"col_name": "SQL TYPE + constraints"}"""
-        cols_sql = ", ".join(f"{name} {dtype}" for name, dtype in columns.items())
+        cols_sql = ", ".join(f'"{name}" {dtype}' for name, dtype in columns.items())
         exists_clause = "IF NOT EXISTS " if if_not_exists else ""
-        sql = f"CREATE TABLE {exists_clause}{table} ({cols_sql})"
+        sql = f'CREATE TABLE {exists_clause}"{table}" ({cols_sql})'
         self._conn.execute(sql)
         self._conn.commit()
 
     def drop_table(self, table: str, if_exists: bool = True) -> None:
         exists_clause = "IF EXISTS " if if_exists else ""
-        self._conn.execute(f"DROP TABLE {exists_clause}{table}")
+        self._conn.execute(f'DROP TABLE {exists_clause}"{table}"')
         self._conn.commit()
 
     # -- CREATE -------------------------------------------------------------
     def insert(self, table: str, record: dict[str, Any]) -> int:
         """Insert a single row. Returns the new row's id (lastrowid)."""
-        cols = ", ".join(record.keys())
+        cols = ", ".join(f'"{k}"' for k in record.keys())
         placeholders = ", ".join("?" for _ in record)
-        sql = f"INSERT INTO {table} ({cols}) VALUES ({placeholders})"
+        sql = f'INSERT INTO "{table}" ({cols}) VALUES ({placeholders})'
         cur = self._conn.execute(sql, tuple(record.values()))
         self._conn.commit()
         return cur.lastrowid
@@ -81,9 +81,9 @@ class DatabaseManager:
         """Bulk insert. All dicts must share the same keys. Returns rows affected."""
         if not records:
             return 0
-        cols = ", ".join(records[0].keys())
+        cols = ", ".join(f'"{k}"' for k in records[0].keys())
         placeholders = ", ".join("?" for _ in records[0])
-        sql = f"INSERT INTO {table} ({cols}) VALUES ({placeholders})"
+        sql = f'INSERT INTO "{table}" ({cols}) VALUES ({placeholders})'
         rows = [tuple(r.values()) for r in records]
         cur = self._conn.executemany(sql, rows)
         self._conn.commit()
@@ -94,12 +94,12 @@ class DatabaseManager:
               where: Optional[dict[str, Any]] = None, order_by: str = None,
               limit: int = None) -> list[dict]:
         """Fetch rows as a list of dicts. `where` is an equality-AND filter."""
-        cols = ", ".join(columns)
-        sql = f"SELECT {cols} FROM {table}"
+        cols = ", ".join(columns if columns == ("*",) else [f'"{c}"' for c in columns])
+        sql = f'SELECT {cols} FROM "{table}"'
         params: tuple = ()
         if where:
-            clause = " AND ".join(f"{k} = ?" for k in where)
-            sql += f" WHERE {clause}"
+            clauses = [f'"{col}" = ?' for col in where]
+            sql += " WHERE " + " AND ".join(clauses)
             params = tuple(where.values())
         if order_by:
             sql += f" ORDER BY {order_by}"
