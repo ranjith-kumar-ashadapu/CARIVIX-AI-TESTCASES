@@ -33,6 +33,8 @@ HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = HERE
 TESTING_ROOT = PROJECT_ROOT.parent
 VENV_PYTHON = TESTING_ROOT / ".venv" / "Scripts" / "python.exe"
+if not VENV_PYTHON.exists():
+    VENV_PYTHON = Path(sys.executable)
 
 PORTS = [8000, 8001, 8002]
 

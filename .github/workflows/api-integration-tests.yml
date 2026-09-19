@@ -9,7 +9,7 @@ on:
 
 jobs:
   integration-tests:
-    name: Backend & Spatial Integration Suite
+    name: Backend & ML Integration Suite
     runs-on: windows-latest
 
     steps:
@@ -25,12 +25,11 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r "Testing/CARIVIX-AI/BACKEND module/requirements.txt"
-          pip install pytest playwright pydantic uvicorn fastapi openpyxl
+          pip install -r "BACKEND module/requirements.txt"
+          pip install pytest playwright pydantic uvicorn fastapi openpyxl requests
           playwright install --with-deps chromium
 
       - name: Execute Automated Test Runner
-        working-directory: Testing/CARIVIX-AI
         run: |
           python run_api_tests.py --suite all
 
@@ -40,7 +39,7 @@ jobs:
         with:
           name: api-test-evidence
           path: |
-            Testing/CARIVIX-AI/carivix_tests/reports/carivix_test_report.csv
-            Testing/CARIVIX-AI/carivix_tests/reports/carivix_test_report.html
-            Testing/CARIVIX_AI_Test_Report.html
-            Testing/CARIVIX-AI/carivix_tests/reports/junit_results.xml
+            carivix_tests/reports/carivix_test_report.csv
+            carivix_tests/reports/carivix_test_report.html
+            CARIVIX_AI_Test_Report.html
+            carivix_tests/reports/junit_results.xml

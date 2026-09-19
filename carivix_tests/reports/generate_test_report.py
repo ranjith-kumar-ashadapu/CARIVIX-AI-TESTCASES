@@ -1396,6 +1396,8 @@ def generate_all_reports():
     project_root = here.parent.parent
     testing_root = project_root.parent
     venv_python = testing_root / ".venv" / "Scripts" / "python.exe"
+    if not venv_python.exists():
+        venv_python = Path(sys.executable)
 
     junit_xml_path = here / "junit_results.xml"
 
@@ -1444,11 +1446,13 @@ def generate_all_reports():
 
     csv_path = here / "carivix_test_report.csv"
     html_path = here / "carivix_test_report.html"
-    root_html_path = testing_root / "CARIVIX_AI_Test_Report.html"
+    root_html_path = project_root / "CARIVIX_AI_Test_Report.html"
 
     export_csv(results, csv_path)
     export_html(results, html_path)
     export_html(results, root_html_path)
+    if testing_root.exists() and testing_root != project_root:
+        export_html(results, testing_root / "CARIVIX_AI_Test_Report.html")
 
 
 if __name__ == "__main__":

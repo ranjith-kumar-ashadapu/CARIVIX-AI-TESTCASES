@@ -35,6 +35,8 @@ PROJECT_ROOT: Path = HERE.parent                      # Testing/CARIVIX-AI/
 TESTING_ROOT: Path = PROJECT_ROOT.parent              # Testing/
 
 VENV_PYTHON: Path = TESTING_ROOT / ".venv" / "Scripts" / "python.exe"
+if not VENV_PYTHON.exists():
+    VENV_PYTHON = Path(sys.executable)
 
 BACKEND_API: Path = PROJECT_ROOT / "BACKEND module" / "api.py"
 ML_INFERENCE_API: Path = PROJECT_ROOT / "ML module" / "api.py"
