@@ -104,7 +104,8 @@ def _start_service(
         f"--host={host}",
         f"--port={port}",
         "--log-level=error",
-        f"--app-dir={str(module_path.parent)}",
+        "--app-dir",
+        str(module_path.parent),
     ]
 
     creationflags = subprocess.CREATE_NO_WINDOW if sys.platform.startswith("win") else 0

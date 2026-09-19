@@ -1,0 +1,159 @@
+[
+  {
+    "timestamp": "20260820_120147",
+    "model_name": "LogisticRegression",
+    "hyperparameters": {
+      "C": 1.0,
+      "solver": "liblinear",
+      "max_iter": 500
+    },
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.03,
+    "metrics": {
+      "accuracy": 0.605,
+      "precision": 0.5845,
+      "recall": 0.605,
+      "f1_score": 0.5671018098877336,
+      "roc_auc": 0.5200746965452848
+    },
+    "model_path": "models\\LogisticRegression_processed_20260731_165209_20260820_120147.pkl"
+  },
+  {
+    "timestamp": "20260820_120149",
+    "model_name": "DecisionTree",
+    "hyperparameters": {
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    },
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.0407,
+    "metrics": {
+      "accuracy": 0.565,
+      "precision": 0.560787351443124,
+      "recall": 0.565,
+      "f1_score": 0.5625485570496186,
+      "roc_auc": 0.5437804751530242
+    },
+    "model_path": "models\\DecisionTree_processed_20260731_165209_20260820_120149.pkl"
+  },
+  {
+    "timestamp": "20260820_120159",
+    "model_name": "RandomForest",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": null,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    },
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.2378,
+    "metrics": {
+      "accuracy": 0.495,
+      "precision": 0.4508552631578947,
+      "recall": 0.495,
+      "f1_score": 0.4611542092165108,
+      "roc_auc": 0.4786803610333022
+    },
+    "model_path": "models\\RandomForest_processed_20260731_165209_20260820_120159.pkl"
+  },
+  {
+    "timestamp": "20260820_120201",
+    "model_name": "SVM",
+    "hyperparameters": {
+      "C": 1.0,
+      "kernel": "rbf"
+    },
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.235,
+    "metrics": {
+      "accuracy": 0.58,
+      "precision": 0.5292418196328811,
+      "recall": 0.58,
+      "f1_score": 0.49875246742992496,
+      "roc_auc": 0.4631185807656396
+    },
+    "model_path": "models\\SVM_processed_20260731_165209_20260820_120201.pkl"
+  },
+  {
+    "timestamp": "20260820_120206",
+    "model_name": "KNN",
+    "hyperparameters": {
+      "n_neighbors": 5,
+      "weights": "uniform"
+    },
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.0025,
+    "metrics": {
+      "accuracy": 0.495,
+      "precision": 0.494,
+      "recall": 0.495,
+      "f1_score": 0.49448816237428206,
+      "roc_auc": 0.4504616661479407
+    },
+    "model_path": "models\\KNN_processed_20260731_165209_20260820_120206.pkl"
+  },
+  {
+    "timestamp": "20260820_120208",
+    "model_name": "NaiveBayes",
+    "hyperparameters": {},
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.0073,
+    "metrics": {
+      "accuracy": 0.42,
+      "precision": 0.45396895787139685,
+      "recall": 0.42,
+      "f1_score": 0.4175630252100841,
+      "roc_auc": 0.46680153542898645
+    },
+    "model_path": "models\\NaiveBayes_processed_20260731_165209_20260820_120208.pkl"
+  },
+  {
+    "timestamp": "20260820_120212",
+    "model_name": "GradientBoosting",
+    "hyperparameters": {
+      "learning_rate": 0.1,
+      "n_estimators": 100,
+      "max_depth": 3
+    },
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.8322,
+    "metrics": {
+      "accuracy": 0.555,
+      "precision": 0.5249671052631579,
+      "recall": 0.555,
+      "f1_score": 0.5251754912897967,
+      "roc_auc": 0.5357402220147319
+    },
+    "model_path": "models\\GradientBoosting_processed_20260731_165209_20260820_120212.pkl"
+  },
+  {
+    "timestamp": "20260820_120218",
+    "model_name": "XGBoost",
+    "hyperparameters": {
+      "learning_rate": 0.1,
+      "n_estimators": 100,
+      "max_depth": 6,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "dataset_name": "processed_20260731_165209",
+    "task_type": "classification",
+    "training_time_seconds": 0.6455,
+    "metrics": {
+      "accuracy": 0.525,
+      "precision": 0.50375,
+      "recall": 0.525,
+      "f1_score": 0.5088844163312248,
+      "roc_auc": 0.4843863471314451
+    },
+    "model_path": "models\\XGBoost_processed_20260731_165209_20260820_120218.pkl"
+  }
+]

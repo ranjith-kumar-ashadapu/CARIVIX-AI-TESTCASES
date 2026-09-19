@@ -1,0 +1,13 @@
+# Pinned runtime dependencies verified to load baseline models
+# Created: 2026-08-20
+# These versions were used during verification and are recommended for deployment.
+numpy==2.4.6
+joblib==1.5.3
+scikit-learn==1.9.0
+scipy==1.17.1
+xgboost==3.2.0
+pandas==3.0.5
+fastapi==0.141.1
+uvicorn[standard]==0.52.4
+# Optional (install if using RAG / explainability):
+# shap, faiss-cpu, sentence-transformers, torch, imbalanced-learn

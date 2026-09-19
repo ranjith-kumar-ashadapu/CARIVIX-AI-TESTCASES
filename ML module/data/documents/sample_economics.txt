@@ -1,0 +1,26 @@
+Economic Analysis and Market Trends
+====================================
+
+Macroeconomic Indicators
+-------------------------
+Gross Domestic Product (GDP) is the primary measure of economic output. It represents the total value of all goods and services produced within a country's borders. GDP growth rates are used to determine whether an economy is expanding or contracting.
+
+Inflation is measured by the Consumer Price Index (CPI) and Producer Price Index (PPI). Central banks target inflation rates of around 2% for developed economies. Hyperinflation occurs when prices increase more than 50% per month.
+
+Unemployment rates indicate labor market health. The natural rate of unemployment typically ranges from 4% to 6% in developed economies. Structural unemployment occurs when there is a mismatch between workers' skills and available jobs.
+
+Market Analysis
+---------------
+Stock markets are influenced by multiple factors including corporate earnings, interest rates, geopolitical events, and investor sentiment. The efficient market hypothesis suggests that stock prices reflect all available information.
+
+Technical analysis uses historical price and volume data to predict future price movements. Common indicators include moving averages, Relative Strength Index (RSI), and MACD. Fundamental analysis evaluates a company's financial health through metrics like P/E ratio, debt-to-equity, and revenue growth.
+
+Machine Learning in Finance
+---------------------------
+Machine learning has revolutionized financial analysis. Random Forest and Gradient Boosting models are widely used for credit scoring and risk assessment. XGBoost has become popular for algorithmic trading due to its high performance and handling of structured data.
+
+Time series forecasting uses models like ARIMA, Prophet, and LSTM networks to predict future values based on historical patterns. Feature engineering is critical in financial ML, including technical indicators, rolling statistics, and lag features.
+
+Risk Management
+---------------
+Value at Risk (VaR) measures the potential loss in value of a portfolio over a defined period. Monte Carlo simulations are used to model uncertainty in financial forecasts. Portfolio optimization uses techniques like Modern Portfolio Theory to maximize returns for a given risk level.

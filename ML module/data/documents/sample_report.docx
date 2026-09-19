@@ -1,0 +1,19 @@
+This is a placeholder DOCX file for the RAG pipeline.
+
+The RAG pipeline will load this file using python-docx.
+
+CARIVIX AI - Technical Report
+==============================
+
+The Retrieval-Augmented Generation (RAG) pipeline is designed to enhance the CARIVIX AI platform with document-based question answering capabilities. By combining vector search with large language models, the system can provide accurate, context-aware responses based on the project's documentation.
+
+Key Components:
+1. Document Loader: Supports PDF, DOCX, TXT, and CSV formats.
+2. Text Splitter: Uses RecursiveCharacterTextSplitter with 500 character chunks and 50 character overlap.
+3. Embedding Generator: Uses sentence-transformers/all-MiniLM-L6-v2 for dense vector representations.
+4. Vector Store: FAISS-based index for efficient similarity search.
+5. Retriever: Returns top-5 most relevant chunks for a given query.
+6. Prompt Builder: Constructs context-aware prompts for the LLM.
+7. Response Generator: Supports Ollama (Llama 3.1) and HuggingFace pipelines.
+
+The system is designed to be modular, production-style, and well-documented, following the same coding standards as the existing CARIVIX AI ML pipeline.

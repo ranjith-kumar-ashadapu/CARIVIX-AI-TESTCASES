@@ -1,0 +1,160 @@
+# =============================================================================
+# CARIVIX AI - Model Training Configuration
+# =============================================================================
+# This configuration file controls the entire model training pipeline.
+# Modify values here to change dataset, algorithm, hyperparameters, etc.
+# =============================================================================
+
+# -------------------------------
+# Dataset Configuration
+# -------------------------------
+dataset_path: "data/raw/dataset.csv"       # Path to the raw dataset
+target_column: "target"                     # Name of the target column
+task_type: "classification"                # "classification" or "regression"
+
+# -------------------------------
+# Algorithm Selection
+# -------------------------------
+# Supported algorithms:
+#   Classification: "RandomForest", "GradientBoosting", "XGBoost"
+#   Regression: "RandomForestRegressor", "GradientBoostingRegressor", "XGBoostRegressor", "LinearRegression", "Ridge", "Lasso"
+algorithm: "RandomForest"
+
+# -------------------------------
+# Train-Test Split Parameters
+# -------------------------------
+test_size: 0.2                             # Proportion of data for testing
+random_state: 42                           # Random seed for reproducibility
+
+# -------------------------------
+# Cross-Validation Configuration
+# -------------------------------
+cross_validation:
+  enabled: false                           # Enable cross-validation training
+  n_folds: 5                               # Number of CV folds
+  scoring: "accuracy"                      # Scoring metric for CV
+  shuffle: true                            # Shuffle data before splitting
+
+# -------------------------------
+# Hyperparameter Tuning
+# -------------------------------
+hyperparameter_tuning:
+  enabled: false                           # Enable hyperparameter tuning
+  method: "randomized"                     # "grid" or "randomized"
+  n_iter: 20                               # Number of iterations (randomized search only)
+  cv_folds: 3                              # Number of CV folds for tuning
+  scoring: "accuracy"                      # Scoring metric for tuning
+  n_jobs: -1                               # Number of parallel jobs (-1 = all cores)
+
+# -------------------------------
+# Model Hyperparameters
+# -------------------------------
+model_parameters:
+  # RandomForest parameters (classification)
+  n_estimators: 100
+  max_depth: 10
+  min_samples_split: 5
+  min_samples_leaf: 2
+  random_state: 42
+
+  # GradientBoosting parameters (used if algorithm is "GradientBoosting")
+  learning_rate: 0.1
+  n_estimators_gb: 100
+  max_depth_gb: 5
+
+  # XGBoost parameters (used if algorithm is "XGBoost")
+  learning_rate_xgb: 0.1
+  n_estimators_xgb: 100
+  max_depth_xgb: 6
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+  # Regression parameters (used if algorithm is regression)
+  alpha: 1.0                               # Regularization strength (Ridge/Lasso)
+  l1_ratio: 0.5                            # L1 ratio for ElasticNet
+
+# -------------------------------
+# MLflow Experiment Tracking
+# -------------------------------
+mlflow_experiment_name: "CARIVIX_AI"       # MLflow experiment name
+mlflow_tracking_uri: "sqlite:///mlflow.db"  # Local tracking URI (SQLite backend)
+
+# -------------------------------
+# Model Saving
+# -------------------------------
+model_save_path: "models/"                 # Directory to save trained models
+export_onnx: false                         # Export model to ONNX format
+
+# -------------------------------
+# Preprocessing Options
+# -------------------------------
+preprocessing:
+  handle_missing: true                     # Whether to handle missing values
+  missing_strategy: "mean"                 # Strategy: "mean", "median", "mode", "drop"
+  remove_duplicates: true                  # Whether to remove duplicate rows
+  scaling_method: "standard"               # "standard" (StandardScaler) or "minmax" (MinMaxScaler)
+
+  # Outlier Handling
+  handle_outliers: false                   # Whether to detect and handle outliers
+  outlier_method: "iqr"                    # "iqr", "zscore", or "isolation_forest"
+  outlier_threshold: 1.5                   # IQR multiplier or Z-score threshold
+  outlier_strategy: "clip"                 # "clip", "remove", or "winsorize"
+
+  # Imbalanced Data Handling
+  handle_imbalanced: false                 # Whether to handle imbalanced datasets
+  imbalanced_method: "smote"               # "smote", "adasyn", "random_oversample", "random_undersample"
+
+  # Feature Transformation
+  apply_log_transform: false               # Apply log transformation to skewed features
+  skewness_threshold: 1.0                  # Skewness threshold for log transform
+
+# -------------------------------
+# Feature Engineering Options
+# -------------------------------
+feature_engineering:
+  extract_date_features: true              # Extract features from datetime columns
+  feature_selection_method: "variance"     # "variance", "correlation", "none"
+  variance_threshold: 0.01                 # Threshold for variance-based selection
+  correlation_threshold: 0.95              # Threshold for removing highly correlated features
+
+  # Advanced Feature Engineering
+  create_text_features: true               # Create text-derived features for categorical/string columns
+  create_binning_features: false           # Create binning features from numerical columns
+  create_clustering_features: false       # Create clustering-based features from numeric columns
+  n_bins: 5                                # Number of bins for binning
+  binning_strategy: "quantile"             # "uniform" or "quantile"
+
+  # Dimensionality Reduction
+  apply_pca: false                         # Apply PCA for dimensionality reduction
+  pca_variance_ratio: 0.95                 # Explained variance ratio to retain
+  pca_n_components: null                   # Number of PCA components (overrides variance_ratio if set)
+
+# -------------------------------
+# Baseline Pipeline Configuration
+# -------------------------------
+baseline:
+  enabled: true                            # Enable baseline model training
+  use_processed_data: true                 # Use preprocessed data from data/processed/
+  processed_data_path: "data/processed/"   # Directory containing processed datasets
+  auto_detect_task_type: true              # Auto-detect classification vs regression
+  task_type: "auto"                        # "auto", "classification", or "regression"
+  test_size: 0.2                           # Test split ratio
+  random_state: 42                         # Random seed
+  n_jobs: -1                               # Parallel jobs (-1 = all cores)
+  save_models: true                        # Save trained models to models/
+  track_experiments: true                  # Save experiment records to experiments/
+
+  # Models to skip (e.g., if a dependency is missing)
+  skip_models: []                          # List of model names to skip, e.g., ["XGBoost"]
+
+  # Default hyperparameters (overrides model defaults)
+  model_parameters: {}
+
+# -------------------------------
+# Explainability
+# -------------------------------
+explainability:
+  enabled: false                           # Enable SHAP explainability
+  max_display_features: 20                 # Max features to show in SHAP plots
+  background_samples: 100                  # Number of background samples for SHAP
+

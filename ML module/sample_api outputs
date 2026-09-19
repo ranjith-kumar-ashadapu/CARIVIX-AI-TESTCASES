@@ -1,0 +1,264 @@
+[
+{
+  "endpoint": "POST /api/v1/predict",
+  "description": "Run single-record inference, use one JSON request at a time.",
+  "examples": [
+    {
+      "age": 43,
+      "income": 67976.67,
+      "credit_score": 694,
+      "loan_amount": 14857.28,
+      "years_employed": 19,
+      "education": "Master",
+      "employment_status": "Employed",
+      "marital_status": "Married",
+      "housing_type": "Rent",
+      "application_date": "2024-09-21"
+    },
+
+    {
+      "age": 28,
+      "income": 52000,
+      "credit_score": 720,
+      "loan_amount": 12000,
+      "years_employed": 5,
+      "education": "Bachelor",
+      "employment_status": "Employed",
+      "marital_status": "Single",
+      "housing_type": "Rent",
+      "application_date": "2024-10-15"
+    },
+
+    {
+      "age": 45,
+      "income": 85000,
+      "credit_score": 760,
+      "loan_amount": 25000,
+      "years_employed": 18,
+      "education": "Master",
+      "employment_status": "Employed",
+      "marital_status": "Married",
+      "housing_type": "Own",
+      "application_date": "2024-11-03"
+    },
+
+    {
+      "age": 31,
+      "income": 38000,
+      "credit_score": 640,
+      "loan_amount": 10000,
+      "years_employed": 3,
+      "education": "Bachelor",
+      "employment_status": "Employed",
+      "marital_status": "Single",
+      "housing_type": "Rent",
+      "application_date": "2024-08-20"
+    },
+    {
+      "age": 52,
+      "income": 125000,
+      "credit_score": 810,
+      "loan_amount": 40000,
+      "years_employed": 25,
+      "education": "Master",
+      "employment_status": "Employed",
+      "marital_status": "Married",
+      "housing_type": "Own",
+      "application_date": "2024-12-10"
+    }
+  ]
+},
+{
+  "endpoint": "POST /api/v1/predict/batch",
+  "description": "Run batch inference, using multiple JSON records in a single request.",
+  "examples": [
+    {
+      "records": [
+        {
+          "age": 43,
+          "income": 67976.67,
+          "credit_score": 694,
+          "loan_amount": 14857.28,
+          "years_employed": 19,
+          "education": "Master",
+          "employment_status": "Employed",
+          "marital_status": "Married",
+          "housing_type": "Rent",
+          "application_date": "2024-09-21"
+        },
+        {
+          "age": 35,
+          "income": 52000,
+          "credit_score": 710,
+          "loan_amount": 12000,
+          "years_employed": 8,
+          "education": "Bachelor",
+          "employment_status": "Self-Employed",
+          "marital_status": "Single",
+          "housing_type": "Own",
+          "application_date": "2024-10-05"
+        }
+      ]
+    },
+
+    {
+      "records": [
+        {
+          "age": 28,
+          "income": 48000,
+          "credit_score": 715,
+          "loan_amount": 11000,
+          "years_employed": 5,
+          "education": "Bachelor",
+          "employment_status": "Employed",
+          "marital_status": "Single",
+          "housing_type": "Rent",
+          "application_date": "2024-10-15"
+        },
+        {
+          "age": 45,
+          "income": 85000,
+          "credit_score": 760,
+          "loan_amount": 25000,
+          "years_employed": 18,
+          "education": "Master",
+          "employment_status": "Employed",
+          "marital_status": "Married",
+          "housing_type": "Own",
+          "application_date": "2024-11-03"
+        },
+        {
+          "age": 51,
+          "income": 98000,
+          "credit_score": 780,
+          "loan_amount": 30000,
+          "years_employed": 22,
+          "education": "Master",
+          "employment_status": "Employed",
+          "marital_status": "Married",
+          "housing_type": "Own",
+          "application_date": "2024-11-12"
+        }
+      ]
+    },
+
+    {
+      "records": [
+        {
+          "age": 25,
+          "income": 36000,
+          "credit_score": 650,
+          "loan_amount": 7000,
+          "years_employed": 2,
+          "education": "Bachelor",
+          "employment_status": "Employed",
+          "marital_status": "Single",
+          "housing_type": "Rent",
+          "application_date": "2024-06-15"
+        },
+        {
+          "age": 38,
+          "income": 72000,
+          "credit_score": 735,
+          "loan_amount": 18000,
+          "years_employed": 10,
+          "education": "Master",
+          "employment_status": "Self-Employed",
+          "marital_status": "Married",
+          "housing_type": "Own",
+          "application_date": "2024-07-20"
+        },
+        {
+          "age": 47,
+          "income": 89000,
+          "credit_score": 765,
+          "loan_amount": 25000,
+          "years_employed": 20,
+          "education": "Bachelor",
+          "employment_status": "Employed",
+          "marital_status": "Married",
+          "housing_type": "Own",
+          "application_date": "2024-09-10"
+        },
+        {
+          "age": 33,
+          "income": 55000,
+          "credit_score": 680,
+          "loan_amount": 14000,
+          "years_employed": 6,
+          "education": "Bachelor",
+          "employment_status": "Employed",
+          "marital_status": "Single",
+          "housing_type": "Rent",
+          "application_date": "2024-12-03"
+        }
+      ]
+    },
+
+    {
+      "records": [
+        {
+          "age": 30,
+          "income": 45000,
+          "credit_score": 690,
+          "loan_amount": 9000,
+          "years_employed": 4,
+          "education": "Bachelor",
+          "employment_status": "Employed",
+          "marital_status": "Single",
+          "housing_type": "Rent",
+          "application_date": "2024-05-18"
+        },
+        {
+          "age": 42,
+          "income": 83000,
+          "credit_score": 750,
+          "loan_amount": 22000,
+          "years_employed": 15,
+          "education": "Master",
+          "employment_status": "Employed",
+          "marital_status": "Married",
+          "housing_type": "Own",
+          "application_date": "2024-06-22"
+        },
+        {
+          "age": 56,
+          "income": 115000,
+          "credit_score": 800,
+          "loan_amount": 45000,
+          "years_employed": 28,
+          "education": "PhD",
+          "employment_status": "Employed",
+          "marital_status": "Married",
+          "housing_type": "Own",
+          "application_date": "2024-08-14"
+        },
+        {
+          "age": 36,
+          "income": 61000,
+          "credit_score": 705,
+          "loan_amount": 16000,
+          "years_employed": 9,
+          "education": "Bachelor",
+          "employment_status": "Self-Employed",
+          "marital_status": "Single",
+          "housing_type": "Own",
+          "application_date": "2024-10-30"
+        },
+        {
+          "age": 49,
+          "income": 76000,
+          "credit_score": 730,
+          "loan_amount": 20000,
+          "years_employed": 17,
+          "education": "Master",
+          "employment_status": "Employed",
+          "marital_status": "Married",
+          "housing_type": "Rent",
+          "application_date": "2024-12-15"
+        }
+      ]
+    }
+  ]
+}
+]
