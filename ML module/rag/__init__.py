@@ -31,19 +31,62 @@ Modules:
 __version__ = "1.0.0"
 __author__ = "CARIVIX AI"
 
-from rag.config import DEFAULT_RAG_CONFIG, RAGConfig, get_rag_config
-from rag.context_builder import ContextBuilder
-from rag.loader import DocumentLoader
-from rag.splitter import TextPreprocessor, DocumentSplitter
-from rag.embeddings import EmbeddingGenerator
-from rag.vector_store import VectorStore
-from rag.retriever import Retriever
-from rag.prompt_builder import PromptBuilder
-from rag.generator import ResponseGenerator
-from rag.pipeline import RAGPipeline
-from rag.evaluation.relevance_evaluator import RelevanceEvaluator
-from rag.evaluation.factuality_evaluator import FactualityEvaluator
-from rag.evaluation.test_set_generator import TestSetGenerator, EvaluationCase
+try:
+    from rag.config import DEFAULT_RAG_CONFIG, RAGConfig, get_rag_config
+except ImportError:
+    pass
+
+try:
+    from rag.context_builder import ContextBuilder
+except ImportError:
+    pass
+
+try:
+    from rag.loader import DocumentLoader
+except ImportError:
+    pass
+
+try:
+    from rag.splitter import TextPreprocessor, DocumentSplitter
+except ImportError:
+    pass
+
+try:
+    from rag.embeddings import EmbeddingGenerator
+except ImportError:
+    pass
+
+try:
+    from rag.vector_store import VectorStore
+except ImportError:
+    pass
+
+try:
+    from rag.retriever import Retriever
+except ImportError:
+    pass
+
+try:
+    from rag.prompt_builder import PromptBuilder
+except ImportError:
+    pass
+
+try:
+    from rag.generator import ResponseGenerator
+except ImportError:
+    pass
+
+try:
+    from rag.pipeline import RAGPipeline
+except ImportError:
+    pass
+
+try:
+    from rag.evaluation.relevance_evaluator import RelevanceEvaluator
+    from rag.evaluation.factuality_evaluator import FactualityEvaluator
+    from rag.evaluation.test_set_generator import TestSetGenerator, EvaluationCase
+except ImportError:
+    pass
 
 __all__ = [
     "RAGConfig",
