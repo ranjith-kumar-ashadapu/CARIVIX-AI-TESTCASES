@@ -118,6 +118,9 @@ class ModelService:
                     logger.exception("Failed to read experiments CSV for model discovery: %s", exc)
 
         for model_path in candidate_files:
+            # Exclude NLP/Intent pipelines from tabular predictive models
+            if "intent" in model_path.stem.lower() or "nlp" in model_path.stem.lower():
+                continue
             try:
                 model_name = self._derive_model_name(str(model_path))
                 model = joblib.load(str(model_path))

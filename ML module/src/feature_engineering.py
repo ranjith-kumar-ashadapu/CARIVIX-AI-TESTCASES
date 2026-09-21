@@ -1,4 +1,4 @@
-﻿"""
+"""
 Feature Engineering Module for CARIVIX AI Model Training pipeline.
 
 Provides:
@@ -218,7 +218,7 @@ def extract_date_features(df: pd.DataFrame, date_columns: List[str]) -> pd.DataF
         if col not in df_date.columns:
             continue
         try:
-            df_date[col] = pd.to_datetime(df_date[col], errors="coerce", infer_datetime_format=True)
+            df_date[col] = pd.to_datetime(df_date[col], errors="coerce")
         except (ValueError, TypeError) as exc:
             logger.warning("Could not convert '%s' to datetime: %s.", col, exc)
             continue

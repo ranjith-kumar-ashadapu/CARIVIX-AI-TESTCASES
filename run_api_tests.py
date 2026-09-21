@@ -36,7 +36,7 @@ VENV_PYTHON = TESTING_ROOT / ".venv" / "Scripts" / "python.exe"
 if not VENV_PYTHON.exists():
     VENV_PYTHON = Path(sys.executable)
 
-PORTS = [8000, 8001, 8002]
+PORTS = [8000, 8001, 8002, 8003]
 
 SUITE_MAP = {
     "backend": [
@@ -44,7 +44,14 @@ SUITE_MAP = {
         "carivix_tests/backend/test_backend_pipeline.py",
         "carivix_tests/backend/test_negative_and_gibberish.py",
     ],
+    "gis": [
+        "carivix_tests/gis/test_gis_api.py",
+    ],
+    "nlp": [
+        "carivix_tests/nlp/test_nlp_api.py",
+    ],
     "ml": [
+        "carivix_tests/ml/test_ml_feature_pipeline.py",
         "carivix_tests/ml/test_ml_model_api.py",
         "carivix_tests/ml/test_ml_items_api.py",
         "carivix_tests/ml/test_ml_unexpected_inputs.py",
@@ -56,12 +63,30 @@ SUITE_MAP = {
     "items": [
         "carivix_tests/ml/test_ml_items_api.py",
     ],
+    "e2e": [
+        "carivix_tests/test_e2e_ai_nlp_gis_workflow.py",
+    ],
+    "stress": [
+        "carivix_tests/stress/test_ml_stress_and_limits.py",
+        "carivix_tests/stress/test_nlp_stress_and_limits.py",
+        "carivix_tests/stress/test_gis_stress_and_limits.py",
+        "carivix_tests/stress/test_backend_stress_and_limits.py",
+    ],
     "all": [
         "carivix_tests/backend/test_backend_api.py",
         "carivix_tests/backend/test_backend_pipeline.py",
         "carivix_tests/backend/test_negative_and_gibberish.py",
+        "carivix_tests/gis/test_gis_api.py",
+        "carivix_tests/nlp/test_nlp_api.py",
+        "carivix_tests/ml/test_ml_feature_pipeline.py",
+        "carivix_tests/ml/test_ml_model_api.py",
         "carivix_tests/ml/test_ml_items_api.py",
         "carivix_tests/ml/test_ml_unexpected_inputs.py",
+        "carivix_tests/test_e2e_ai_nlp_gis_workflow.py",
+        "carivix_tests/stress/test_ml_stress_and_limits.py",
+        "carivix_tests/stress/test_nlp_stress_and_limits.py",
+        "carivix_tests/stress/test_gis_stress_and_limits.py",
+        "carivix_tests/stress/test_backend_stress_and_limits.py",
     ],
 }
 
@@ -136,7 +161,7 @@ def run_tests(suites: list[str], generate_report: bool = True) -> int:
 
 def main():
     parser = argparse.ArgumentParser(description="CARIVIX-AI API Integration Test Automation Runner")
-    parser.add_argument("--suite", choices=["all", "backend", "ml", "items", "unexpected"], default="all", help="Target test suite")
+    parser.add_argument("--suite", choices=["all", "backend", "gis", "nlp", "ml", "items", "unexpected", "e2e", "stress"], default="all", help="Target test suite")
     parser.add_argument("--clean-ports", action="store_true", help="Clean up ports and exit")
     parser.add_argument("--no-report", action="store_true", help="Skip report generation")
     parser.add_argument("--report-only", action="store_true", help="Only generate report without running tests")
@@ -152,7 +177,7 @@ def main():
         subprocess.run([str(VENV_PYTHON), str(report_script)], cwd=str(PROJECT_ROOT))
         return
 
-    suites = [args.suite] if args.suite != "all" else ["backend", "items", "unexpected"]
+    suites = [args.suite]
     code = run_tests(suites, generate_report=not args.no_report)
     sys.exit(code)
 

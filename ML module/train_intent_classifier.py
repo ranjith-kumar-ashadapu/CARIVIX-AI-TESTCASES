@@ -1,36 +1,45 @@
 """
-Train a simple intent classifier for CARIVIX NLP routing.
-Creates a small synthetic dataset, trains a TF-IDF + LogisticRegression
-pipeline, evaluates it, and saves the model to models/intent_classifier.joblib.
+Train an enterprise intent classifier for CARIVIX NLP routing and workflow validation.
+Supports core intents:
+  - GIS_VIEW: Map, boundary, district, spatial intelligence, telemetry queries
+  - PREDICTION: Default risk, loan scoring, GDP/sales forecast, ML inference queries
+  - DATA_METRIC: Revenue, count, statistics, economic indicator queries
+  - FAQ: General knowledge, platform architecture, methodology documentation
+  - UNKNOWN_INTENT: Out-of-scope queries, gibberish, noise, security fuzzing
 
-This is a bootstrap classifier — replace with real labeled data for production.
+Saves trained model to models/intent_classifier.joblib.
 """
+from pathlib import Path
+import random
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, accuracy_score
 import joblib
-from pathlib import Path
-import random
 
-MODEL_PATH = Path("models/intent_classifier.joblib")
+HERE = Path(__file__).resolve().parent
+MODEL_PATH = HERE / "models" / "intent_classifier.joblib"
 
-# Synthetic training phrases by intent
-RAG_EXAMPLES = [
-    "What is CARIVIX?",
-    "Explain the findings in the report",
-    "Who authored the sample_report.docx?",
-    "Where can I find the economic indicators?",
-    "Describe the methodology used in the document",
-    "How does the model handle missing values?",
-    "Summarize the sample_about_carivix.txt",
-    "Provide a concise description of the dataset",
-    "Show me the contents of the sample report",
-    "What does the Traffic Analysis report say about congestion?",
+GIS_EXAMPLES = [
+    "Show boundary map for Adilabad district",
+    "Display rainfall map of Jagtial and Peddapalli",
+    "View Telangana district boundaries",
+    "Show GIS spatial map for Hyderabad",
+    "Map coordinates for Karimnagar",
+    "Display administrative boundary for tier 2",
+    "Show risk zone polygon in Warangal",
+    "View spatial analytics and density distribution",
+    "Load district boundaries for Telangana state",
+    "Where is the boundary for Nizamabad district?",
+    "Show spatial telemetry and point clusters",
+    "Render GeoJSON boundary tier 1",
+    "Zoom to district coordinates on spatial map",
+    "Show me the map of India national borders",
+    "Filter districts by state Telangana",
 ]
 
-ML_EXAMPLES = [
+PREDICTION_EXAMPLES = [
     "Predict next quarter GDP",
     "Estimate the probability of default",
     "Forecast sales for the next month",
@@ -40,58 +49,108 @@ ML_EXAMPLES = [
     "Give me the probability the loan will default",
     "Compute the predicted demand for product X",
     "Estimate future unemployment rate",
-    "Provide prediction for target variable using dataset Y",
+    "Predict default probability for a 35-year-old borrower with income 50000",
+    "Forecast credit risk for applicant with credit score 720",
+    "Run predictive model on economic dataset",
+    "Predict default risk for loan amount 25000",
+    "Evaluate applicant loan default likelihood",
+    "Run ML inference for credit default classification",
 ]
 
-COMBINED_EXAMPLES = [
-    "Predict next quarter GDP and explain the supporting evidence in the documents",
-    "Estimate probability and cite the report sections that support the forecast",
-    "Forecast sales and provide the relevant analysis from the documents",
-    "Classify and give supporting context from the report",
-    "Predict and summarize related documents",
+DATA_METRIC_EXAMPLES = [
+    "Show rainfall metrics in Jagtial for 2025",
+    "What is the total revenue for CARIVIX Tech Global",
+    "Get average economic growth rate across sectors",
+    "Retrieve inflation rate for 2026",
+    "What is the average density index in the state",
+    "Show financial report metrics for company Acme",
+    "Count total registered data sources in catalog",
+    "What was the annual revenue for Alpha Analytics Corp",
+    "Retrieve unemployment statistics by quarter",
+    "Show quarterly economic KPIs for 2024 to 2026",
+    "Calculate average loan amount across applicants",
+    "Fetch metric trends for regional employment",
 ]
 
-# Augment examples slightly
-def augment_examples(examples, n_aug=20):
+FAQ_EXAMPLES = [
+    "What is CARIVIX AI?",
+    "Explain the methodology used in the document",
+    "Who authored the project report?",
+    "Where can I find the system architecture guide?",
+    "Describe the data processing steps and ETL pipeline",
+    "How does the platform handle missing values?",
+    "Summarize the sample about CARIVIX platform",
+    "What algorithms are supported by the ML module?",
+    "Explain how the RAG document retrieval works",
+    "What is the tech stack for CARIVIX AI?",
+    "Describe the role of the Python backend service",
+]
+
+UNKNOWN_EXAMPLES = [
+    "asdfghjkl qwerty zxcvbnm 12345",
+    "SELECT * FROM users WHERE 1=1; DROP TABLE users;",
+    "<script>alert('xss payload')</script>",
+    "gibberish foo bar baz blip blop",
+    "how do I bake a chocolate cake at home?",
+    "tell me a funny bedtime story about dragons",
+    "what is the capital of Mars?",
+    "random noise words with no meaning whatsoever",
+    "who won the cricket world cup in 1983?",
+    "can you play music for me right now",
+]
+
+def augment_examples(examples, n_aug=12):
     out = []
     for ex in examples:
         out.append(ex)
-        for i in range(n_aug):
-            # small perturbations
-            if random.random() < 0.5:
-                out.append(ex + " please")
-            else:
-                out.append("Please " + ex.lower())
+        for _ in range(n_aug):
+            prefix = random.choice(["Please ", "Can you ", "Kindly ", "I want to ", ""])
+            suffix = random.choice([" please", " right now", " for me", " today", ""])
+            out.append(f"{prefix}{ex.lower()}{suffix}".strip())
     return out
 
-rag = augment_examples(RAG_EXAMPLES, n_aug=10)
-ml = augment_examples(ML_EXAMPLES, n_aug=10)
-combined = augment_examples(COMBINED_EXAMPLES, n_aug=6)
+def train_and_save():
+    gis = augment_examples(GIS_EXAMPLES, n_aug=10)
+    pred = augment_examples(PREDICTION_EXAMPLES, n_aug=10)
+    metric = augment_examples(DATA_METRIC_EXAMPLES, n_aug=10)
+    faq = augment_examples(FAQ_EXAMPLES, n_aug=10)
+    unknown = augment_examples(UNKNOWN_EXAMPLES, n_aug=10)
 
-X = rag + ml + combined
-y = ["rag" for _ in rag] + ["ml" for _ in ml] + ["combined" for _ in combined]
+    X = gis + pred + metric + faq + unknown
+    y = (
+        ["GIS_VIEW"] * len(gis)
+        + ["PREDICTION"] * len(pred)
+        + ["DATA_METRIC"] * len(metric)
+        + ["FAQ"] * len(faq)
+        + ["UNKNOWN_INTENT"] * len(unknown)
+    )
 
-# Shuffle
-combined_pairs = list(zip(X, y))
-random.shuffle(combined_pairs)
-X, y = zip(*combined_pairs)
+    pairs = list(zip(X, y))
+    random.seed(42)
+    random.shuffle(pairs)
+    X_shuffled, y_shuffled = zip(*pairs)
 
-# Train/test split
-X_train, X_test, y_train, y_test = train_test_split(list(X), list(y), test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(
+        list(X_shuffled), list(y_shuffled), test_size=0.2, random_state=42, stratify=list(y_shuffled)
+    )
 
-pipeline = Pipeline([
-    ("tfidf", TfidfVectorizer(ngram_range=(1,2), max_features=5000)),
-    ("lr", LogisticRegression(max_iter=1000, solver="lbfgs")),
-])
+    pipeline = Pipeline([
+        ("tfidf", TfidfVectorizer(ngram_range=(1, 2), max_features=10000, sublinear_tf=True)),
+        ("lr", LogisticRegression(max_iter=1000, C=5.0, solver="lbfgs")),
+    ])
 
-print("Training intent classifier on synthetic data... this may take a few seconds")
-pipeline.fit(X_train, y_train)
+    print("Training intent classifier on CARIVIX enterprise domain dataset...")
+    pipeline.fit(X_train, y_train)
 
-print("Evaluating...")
-y_pred = pipeline.predict(X_test)
-print(classification_report(y_test, y_pred))
+    y_pred = pipeline.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+    print(f"Test Accuracy: {acc * 100:.2f}%")
+    print(classification_report(y_test, y_pred))
 
-# Ensure models dir exists
-MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
-joblib.dump(pipeline, MODEL_PATH)
-print(f"Saved intent classifier to: {MODEL_PATH}")
+    MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
+    joblib.dump(pipeline, MODEL_PATH)
+    print(f"Saved intent classifier to: {MODEL_PATH}")
+    return pipeline
+
+if __name__ == "__main__":
+    train_and_save()

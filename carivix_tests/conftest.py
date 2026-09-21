@@ -46,10 +46,12 @@ GIS_API: Path = TESTING_ROOT.parent / "CARIVIX - AI" / "server.py"
 BACKEND_PORT: int = 8000
 ML_INFERENCE_PORT: int = 8001
 ML_ITEMS_PORT: int = 8002
+GIS_PORT: int = 8003
 
 BACKEND_BASE_URL: str = f"http://127.0.0.1:{BACKEND_PORT}"
 ML_INFERENCE_BASE_URL: str = f"http://127.0.0.1:{ML_INFERENCE_PORT}"
 ML_ITEMS_BASE_URL: str = f"http://127.0.0.1:{ML_ITEMS_PORT}"
+GIS_BASE_URL: str = f"http://127.0.0.1:{GIS_PORT}"
 
 
 # ---------------------------------------------------------------------------
@@ -200,8 +202,17 @@ def ml_items_service():
 
 @pytest.fixture(scope="session")
 def gis_service():
-    """GIS service stub – GIS is an external module not located in this repository."""
-    yield None
+    """Start the WebGIS Spatial Service on port 8003 if available, else skip."""
+    if not GIS_API.exists():
+        pytest.skip("GIS spatial module (CARIVIX - AI/server.py) is not present in this workspace.")
+    proc, log_file = _start_service(GIS_API, "127.0.0.1", GIS_PORT)
+    yield
+    proc.terminate()
+    try:
+        proc.wait(timeout=5)
+    except subprocess.TimeoutExpired:
+        proc.kill()
+    log_file.close()
 
 
 # ---------------------------------------------------------------------------
@@ -252,9 +263,14 @@ def items_api(playwright_instance: Playwright, ml_items_service) -> APIRequestCo
 
 
 @pytest.fixture(scope="session")
-def gis_api():
-    """GIS API context stub – GIS is an external module not located in this repository."""
-    pytest.skip("GIS spatial module is an external service not present in this repository.")
+def gis_api(playwright_instance: Playwright, gis_service) -> APIRequestContext:
+    """Playwright request context pre-configured for the WebGIS Spatial service."""
+    ctx = playwright_instance.request.new_context(
+        base_url=GIS_BASE_URL,
+        extra_http_headers={"Accept": "application/json"},
+    )
+    yield ctx
+    ctx.dispose()
 
 
 # ---------------------------------------------------------------------------

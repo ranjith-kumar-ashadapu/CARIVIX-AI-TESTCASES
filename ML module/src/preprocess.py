@@ -1,4 +1,4 @@
-﻿"""
+"""
 Data Preprocessing Module for CARIVIX AI Model Training pipeline.
 
 Provides:
@@ -63,26 +63,26 @@ def handle_missing_values(
     elif strategy == "mean":
         for col in numeric_cols:
             if df_clean[col].isnull().sum() > 0:
-                df_clean[col].fillna(df_clean[col].mean(), inplace=True)
+                df_clean[col] = df_clean[col].fillna(df_clean[col].mean())
 
     elif strategy == "median":
         for col in numeric_cols:
             if df_clean[col].isnull().sum() > 0:
-                df_clean[col].fillna(df_clean[col].median(), inplace=True)
+                df_clean[col] = df_clean[col].fillna(df_clean[col].median())
 
     elif strategy == "mode":
         for col in columns:
             if df_clean[col].isnull().sum() > 0:
                 mode_val = df_clean[col].mode().iloc[0] if not df_clean[col].mode().empty else None
                 if mode_val is not None:
-                    df_clean[col].fillna(mode_val, inplace=True)
+                    df_clean[col] = df_clean[col].fillna(mode_val)
 
     elif strategy == "constant":
         if fill_value is None:
             raise ValueError("fill_value must be provided when strategy is 'constant'")
         for col in columns:
             if df_clean[col].isnull().sum() > 0:
-                df_clean[col].fillna(fill_value, inplace=True)
+                df_clean[col] = df_clean[col].fillna(fill_value)
 
     else:
         raise ValueError(f"Invalid strategy '{strategy}'. Choose from: 'mean', 'median', 'mode', 'drop', 'constant'")
