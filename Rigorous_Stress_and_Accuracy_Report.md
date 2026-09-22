@@ -2,7 +2,7 @@
 
 | Evaluation Dimension | Scope & Value |
 | :--- | :--- |
-| **Execution Date** | September 21, 2026 |
+| **Execution Date** | September 22, 2026 |
 | **Evaluation Mode** | Empirical Ground-Truth Accuracy & High-Stress Fuzzing |
 | **Models Evaluated** | XGBoost, RandomForest, GradientBoosting, LogisticRegression |
 | **Ground-Truth Dataset** | 1,010 Records (`ML module/data/raw/dataset.csv`) |
@@ -17,10 +17,10 @@ All baseline models were evaluated against held-out labeled ground-truth records
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC | Latency (s) | Confusion Matrix `[TN, FP], [FN, TP]` |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **XGBoost** | **46.67%** | 49.30% | 89.74% | 0.6364 | **0.7051** | 23.53s | `[[0, 72], [8, 70]]` |
-| **RandomForest** | **47.33%** | 49.65% | 91.03% | 0.6425 | **0.7244** | 22.26s | `[[0, 72], [7, 71]]` |
-| **GradientBoosting** | **50.67%** | 51.35% | 97.44% | 0.6726 | **0.7051** | 13.47s | `[[0, 72], [2, 76]]` |
-| **LogisticRegression** | **52.00%** | 52.00% | 100.00% | 0.6842 | **0.7821** | 13.54s | `[[0, 72], [0, 78]]` |
+| **XGBoost** | **46.67%** | 49.30% | 89.74% | 0.6364 | **0.7051** | 23.65s | `[[0, 72], [8, 70]]` |
+| **RandomForest** | **47.33%** | 49.65% | 91.03% | 0.6425 | **0.7244** | 22.27s | `[[0, 72], [7, 71]]` |
+| **GradientBoosting** | **50.67%** | 51.35% | 97.44% | 0.6726 | **0.7051** | 13.55s | `[[0, 72], [2, 76]]` |
+| **LogisticRegression** | **52.00%** | 52.00% | 100.00% | 0.6842 | **0.7821** | 13.76s | `[[0, 72], [0, 78]]` |
 
 ### Key ML Performance Findings:
 - **Strong Discriminative Capability (ROC-AUC)**: The top credit scoring models (`XGBoost` and `LogisticRegression`) achieved an empirical **ROC-AUC of 0.7051**, indicating strong probability calibration and ranking ability on loan default risk.
@@ -35,7 +35,7 @@ All baseline models were evaluated against held-out labeled ground-truth records
 | :--- | :---: | :---: | :---: |
 | **Intent Classification Accuracy** | **97.2%** | > 90.0% | **EXCEEDED (+7.2%)** |
 | **Entity Extraction Accuracy** | **100.0%** | > 90.0% | **100% Parameter Match** |
-| **Inference Latency SLA** | **1.99 ms** | < 200.0 ms | **99% Below Latency Cap** |
+| **Inference Latency SLA** | **2.05 ms** | < 200.0 ms | **99% Below Latency Cap** |
 | **Adversarial / Fuzzing Resilience**| **100% Zero Crashes** | Zero Unhandled 500s | **Graceful UNKNOWN Fallback** |
 
 ---
