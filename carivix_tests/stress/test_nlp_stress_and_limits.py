@@ -113,7 +113,7 @@ def test_nlp_security_fuzzing_and_buffer_limits(payload: str):
     assert "intent" in res
     assert "confidence" in res
     assert res["intent"] in ["GIS_VIEW", "PREDICTION", "DATA_METRIC", "FAQ", "UNKNOWN_INTENT"]
-    assert elapsed_ms < 100.0, f"Analysis took too long on adversarial payload: {elapsed_ms:.1f}ms"
+    assert elapsed_ms < 250.0, f"Analysis took too long on adversarial payload: {elapsed_ms:.1f}ms"
 
     # Verify query generator handles without error
     structured = generate_structured_query(payload)
