@@ -1,0 +1,1011 @@
+age,income,credit_score,loan_amount,years_employed,education,employment_status,marital_status,housing_type,application_date,target
+43.0,67976.67,694.0,14857.28,19.0,Master,Employed,Married,Rent,2024-09-21,0
+24.0,80737.68,422.0,4364.86,33.3,Bachelor,Employed,Divorced,Other,2025-02-27,1
+49.0,79265.51,658.0,11273.99,31.3,Bachelor,Employed,Divorced,Own,2024-11-15,1
+59.0,35132.3,441.0,11185.49,18.3,Bachelor,Employed,Single,Own,2024-05-31,1
+62.0,64653.49,643.0,3361.85,6.5,Master,Unemployed,Widowed,Mortgage,2024-06-13,1
+54.0,,334.0,57.35,1.9,,Employed,Married,Own,2024-10-19,0
+75.0,38295.48,452.0,28567.7,12.8,High School,Employed,Single,Own,2024-07-06,0
+18.0,49376.45,828.0,7144.97,1.5,Bachelor,Unemployed,Single,Rent,2024-06-15,1
+77.0,55004.65,807.0,11149.13,6.1,Bachelor,Employed,Single,Rent,2023-11-18,0
+70.0,75243.9,713.0,4731.86,35.8,Bachelor,Employed,Divorced,Mortgage,2023-03-12,0
+30.0,61290.53,504.0,5381.03,2.2,Bachelor,Self-Employed,Single,Mortgage,2025-04-17,1
+78.0,50814.78,521.0,7373.07,22.0,High School,Employed,Single,Rent,2024-03-29,1
+35.0,54371.75,566.0,20022.04,30.0,High School,Unemployed,Married,Mortgage,2025-09-23,0
+75.0,74151.01,368.0,3742.52,23.2,High School,Self-Employed,Single,Rent,2024-10-30,0
+56.0,54157.72,369.0,11305.75,19.4,High School,Self-Employed,Married,Rent,2023-09-05,1
+71.0,67583.59,417.0,7619.64,11.3,High School,Employed,Married,Rent,2024-09-05,1
+19.0,,,7192.8,5.9,PhD,Employed,Widowed,Mortgage,2025-04-24,1
+60.0,52237.66,416.0,1166.05,2.7,Master,Employed,Married,Other,2024-12-05,0
+43.0,24601.01,682.0,7333.53,20.0,High School,Employed,Married,Own,2023-10-26,1
+79.0,53100.34,387.0,18790.95,9.6,Bachelor,Retired,Married,Mortgage,2023-04-12,1
+23.0,56735.16,302.0,12314.19,38.4,Master,Employed,Divorced,Other,2025-06-21,1
+36.0,51803.38,353.0,14013.43,28.2,Bachelor,Self-Employed,Married,Rent,2025-07-08,0
+68.0,40924.05,349.0,10940.61,29.2,Bachelor,Employed,Divorced,Other,2023-08-02,1
+50.0,46289.48,569.0,5614.1,7.7,PhD,Employed,Single,Mortgage,2023-08-26,1
+72.0,33390.21,737.0,5360.94,10.6,PhD,Unemployed,Single,Mortgage,2024-08-18,0
+34.0,63824.52,813.0,15186.65,1.4,Master,Retired,Divorced,Mortgage,2023-10-09,0
+44.0,47847.31,312.0,44672.92,34.9,Bachelor,Employed,Single,Rent,2025-05-20,1
+45.0,38442.17,397.0,28348.46,4.7,Master,Employed,Divorced,Mortgage,2023-10-14,0
+35.0,63685.62,824.0,6267.65,12.2,High School,Unemployed,Married,Own,2025-07-11,1
+58.0,54100.65,754.0,29662.31,27.3,Bachelor,Self-Employed,Single,Other,2025-06-06,1
+63.0,59471.69,334.0,4858.14,1.9,Bachelor,Retired,Divorced,Mortgage,2024-04-09,1
+33.0,34120.41,487.0,3165.84,24.2,Bachelor,Self-Employed,Married,Mortgage,2025-03-07,0
+35.0,54404.99,762.0,9729.66,24.8,High School,Employed,Divorced,Rent,2023-04-07,0
+30.0,47136.33,832.0,2571.24,34.8,Bachelor,Unemployed,Single,Own,2023-09-02,1
+18.0,39705.21,509.0,9414.59,37.7,Bachelor,Employed,Married,Mortgage,2025-06-08,1
+24.0,40621.43,843.0,7229.54,33.4,Bachelor,Self-Employed,Single,Other,2023-03-18,1
+70.0,62197.92,573.0,4712.92,34.4,Bachelor,Employed,Single,Mortgage,2025-06-20,1
+30.0,73513.92,699.0,313.44,8.5,Bachelor,Employed,Married,Rent,2023-07-29,0
+32.0,36341.63,320.0,1777.1,6.9,High School,Employed,Married,Mortgage,2023-09-17,0
+51.0,58689.55,768.0,2276.27,36.1,Master,Employed,Divorced,Mortgage,2023-06-08,0
+38.0,33325.62,586.0,688.44,1.7,Bachelor,Employed,Divorced,Other,2025-01-09,1
+72.0,25918.87,382.0,79.96,34.4,High School,Employed,Single,Rent,2024-03-08,0
+36.0,46664.08,753.0,27978.18,37.7,Master,Self-Employed,Single,Own,2023-11-28,1
+67.0,39004.91,756.0,7058.89,16.4,Master,Self-Employed,Married,Other,2025-08-14,1
+23.0,40590.34,678.0,966.16,24.1,Master,Retired,Married,Other,2023-11-11,1
+79.0,62929.48,690.0,8107.95,17.4,Bachelor,Employed,Divorced,Rent,2023-10-22,1
+37.0,45383.22,845.0,6802.33,37.0,Master,Unemployed,Married,Own,2024-01-18,1
+69.0,69268.0,578.0,43948.76,36.1,High School,Employed,Widowed,Mortgage,2024-01-24,1
+49.0,24233.1,813.0,7362.07,31.4,Master,Employed,Divorced,Rent,2024-07-29,0
+67.0,57841.67,801.0,550.0,9.3,Bachelor,Self-Employed,Single,Own,2025-05-29,1
+44.0,26130.28,697.0,16571.82,17.0,Bachelor,Employed,Married,Mortgage,2024-03-18,1
+43.0,43590.72,515.0,11564.38,5.1,High School,Employed,Married,Rent,2024-12-22,1
+26.0,36318.08,650.0,14831.98,4.6,Master,Employed,Married,Mortgage,2023-03-01,0
+41.0,28905.73,796.0,5358.27,2.0,Bachelor,Self-Employed,Single,Rent,2024-11-09,1
+22.0,54253.37,694.0,159.4,39.7,High School,Employed,Single,Mortgage,2024-01-06,0
+38.0,36409.46,631.0,3725.18,13.5,High School,Employed,Married,Own,2024-04-27,1
+20.0,48863.44,716.0,4833.47,3.3,High School,Employed,Divorced,Own,2024-01-17,1
+20.0,85129.63,669.0,5028.67,31.7,High School,Employed,Married,Own,2023-02-24,1
+41.0,63392.38,531.0,14306.82,8.7,High School,Employed,Single,Rent,2023-01-24,0
+50.0,53501.99,798.0,22795.98,16.4,Bachelor,Retired,Single,Other,2023-01-31,0
+45.0,26659.9,603.0,4724.55,9.7,Bachelor,Employed,Married,Own,2025-05-30,1
+68.0,49635.84,569.0,5909.54,12.7,Bachelor,Self-Employed,Married,Mortgage,2024-03-06,0
+36.0,73942.14,400.0,11714.95,32.9,Master,Employed,Single,Rent,2023-01-11,1
+47.0,42656.91,423.0,11216.52,29.2,Master,Employed,Married,Mortgage,2024-10-18,0
+59.0,57163.31,832.0,3311.73,25.5,Master,Employed,Married,Mortgage,2025-03-24,0
+49.0,64622.75,737.0,1826.39,37.7,High School,Employed,Single,Own,2024-04-28,0
+49.0,63156.53,408.0,2005.55,23.7,High School,Self-Employed,Single,Rent,2024-06-27,1
+21.0,60137.13,460.0,35906.64,3.1,High School,Unemployed,Widowed,Mortgage,2023-07-19,1
+40.0,35745.04,461.0,29025.0,32.6,Bachelor,Unemployed,Married,Mortgage,2024-05-16,1
+49.0,30315.81,403.0,13840.01,2.2,High School,Self-Employed,Married,Own,2025-07-29,0
+25.0,40639.75,814.0,13934.08,9.3,Bachelor,Self-Employed,Married,Own,2023-04-18,1
+62.0,36867.12,648.0,5715.04,27.9,Bachelor,Employed,Divorced,Mortgage,2023-08-07,0
+66.0,63976.64,437.0,2096.59,12.3,High School,Employed,Married,Rent,2025-07-14,1
+54.0,15104.72,835.0,1339.39,18.2,High School,Retired,Divorced,Own,2023-06-24,1
+43.0,57258.38,698.0,1880.59,14.2,Bachelor,Self-Employed,Single,Rent,2024-12-24,0
+79.0,22671.43,839.0,2640.38,12.2,Master,Unemployed,Single,Rent,2025-05-31,1
+20.0,,708.0,2367.12,34.5,,Employed,Married,Mortgage,2025-07-22,1
+57.0,52174.06,782.0,4058.75,18.4,Master,Employed,Single,Own,2024-01-30,0
+76.0,79419.55,437.0,6896.25,3.7,Master,Unemployed,Married,Mortgage,2023-02-09,0
+78.0,35933.3,707.0,1244.43,35.5,High School,Unemployed,Married,Rent,2025-04-13,0
+37.0,42003.44,846.0,28539.45,12.6,High School,Retired,Widowed,Mortgage,2025-02-12,1
+40.0,,,22077.93,31.1,Master,Unemployed,Married,Mortgage,2023-12-18,1
+67.0,42451.44,701.0,19324.5,27.6,Bachelor,Self-Employed,Single,Own,2023-03-08,0
+66.0,53574.44,828.0,40201.39,1.8,Bachelor,Employed,Married,Rent,2023-10-05,1
+75.0,65679.69,482.0,9239.81,35.9,High School,Self-Employed,Married,Mortgage,2023-03-09,1
+38.0,72142.19,655.0,6317.33,23.1,Bachelor,Employed,Divorced,Own,2025-06-29,0
+68.0,45503.92,372.0,20607.05,22.9,Bachelor,Employed,Single,Own,2024-03-15,1
+73.0,22235.89,742.0,997.19,33.1,High School,Employed,Divorced,Rent,2025-01-06,0
+70.0,50195.01,831.0,8727.12,24.8,High School,Unemployed,Married,Mortgage,2023-10-24,1
+33.0,85528.39,492.0,3263.64,29.7,High School,Retired,Married,Rent,2024-09-12,1
+48.0,,849.0,5356.92,38.7,,Self-Employed,Widowed,Rent,2024-05-05,1
+22.0,34125.51,636.0,10912.45,1.0,Bachelor,Employed,Married,Rent,2025-03-30,1
+23.0,31763.7,784.0,12263.35,36.6,Bachelor,Employed,Married,Mortgage,2024-07-12,1
+20.0,46728.44,800.0,7265.48,3.5,High School,Employed,Married,Mortgage,2024-02-29,1
+58.0,42256.16,697.0,24647.03,24.5,Bachelor,Unemployed,Widowed,Rent,2025-07-13,1
+69.0,42867.04,526.0,11900.62,31.2,Bachelor,Retired,Single,Own,2023-11-09,1
+44.0,36771.82,841.0,14017.32,16.8,Master,Employed,Single,Rent,2023-07-04,0
+43.0,54459.6,567.0,67.05,13.0,Bachelor,Employed,Married,Mortgage,2023-11-29,1
+19.0,,502.0,7189.17,27.2,,Self-Employed,Married,Mortgage,2023-03-30,1
+42.0,50225.97,822.0,15202.78,39.6,High School,Employed,Married,Own,2023-03-05,0
+55.0,39494.77,321.0,16080.28,6.1,Bachelor,Employed,Married,Rent,2025-04-14,0
+69.0,54446.88,686.0,4310.95,24.7,Bachelor,Self-Employed,Married,Mortgage,2024-07-30,1
+45.0,53189.84,725.0,1265.55,31.3,Bachelor,Employed,Married,Rent,2023-08-04,1
+42.0,72478.47,589.0,13792.51,21.7,High School,Employed,Married,Mortgage,2024-09-07,0
+65.0,,740.0,14982.96,0.0,,Employed,Married,Other,2024-05-28,0
+49.0,62188.41,643.0,37768.03,20.3,High School,Employed,Single,Rent,2023-10-18,1
+52.0,23291.65,576.0,9033.82,24.6,High School,Self-Employed,Single,Rent,2024-01-13,1
+30.0,65028.91,399.0,15409.04,11.6,High School,Employed,Widowed,Own,2025-06-10,0
+30.0,48877.2,711.0,18940.2,10.4,Bachelor,Employed,Married,Other,2025-08-27,1
+45.0,59688.77,800.0,4037.75,1.3,PhD,Self-Employed,Married,Own,2025-08-04,1
+29.0,55856.04,344.0,17522.6,23.6,Bachelor,Unemployed,Single,Rent,2025-02-25,1
+34.0,64937.86,846.0,15442.23,2.6,Bachelor,Unemployed,Single,Other,2024-03-01,1
+60.0,60608.18,513.0,19736.07,24.5,Bachelor,Retired,Divorced,Rent,2024-11-27,1
+18.0,65392.31,638.0,6206.24,9.3,High School,Self-Employed,Married,Rent,2025-09-22,1
+55.0,42388.44,553.0,25972.54,19.7,High School,Employed,Married,Own,2023-11-06,0
+57.0,61530.91,537.0,30976.98,8.2,Master,Unemployed,Married,Rent,2023-03-28,0
+70.0,54185.46,628.0,8782.72,26.2,Master,Self-Employed,Single,Own,2025-01-01,1
+49.0,28069.46,669.0,11751.0,36.3,PhD,Self-Employed,Single,Mortgage,2025-01-25,1
+41.0,45060.04,343.0,707.81,7.8,High School,Employed,Married,Mortgage,2023-11-07,1
+40.0,48305.12,300.0,156.3,4.7,Bachelor,Employed,Divorced,Mortgage,2024-06-22,1
+18.0,46797.91,312.0,21160.77,18.6,Bachelor,Employed,Divorced,Mortgage,2023-05-17,0
+45.0,41107.58,630.0,24410.54,35.8,PhD,Employed,Married,Mortgage,2025-08-16,1
+66.0,44303.64,659.0,19388.63,3.2,High School,Retired,Divorced,Other,2025-09-26,1
+24.0,52756.57,462.0,10189.66,37.5,Master,Employed,Married,Mortgage,2024-12-29,0
+71.0,25820.58,430.0,199.94,23.4,Master,Employed,Single,Mortgage,2023-09-19,1
+42.0,44680.64,600.0,40012.56,22.3,Bachelor,Self-Employed,Married,Other,2024-07-01,0
+57.0,75639.39,520.0,14232.44,34.3,Master,Employed,Married,Own,2023-06-18,1
+31.0,50866.93,827.0,37039.23,28.9,High School,Self-Employed,Single,Mortgage,2025-03-01,0
+45.0,54110.09,619.0,3836.19,12.3,Bachelor,Employed,Married,Mortgage,2024-03-24,0
+41.0,50161.97,533.0,17530.01,11.4,High School,Retired,Married,Own,2023-05-20,0
+44.0,41150.32,798.0,1490.05,17.5,PhD,Self-Employed,Divorced,Own,2024-11-16,0
+48.0,36591.99,577.0,137.93,16.5,High School,Unemployed,Divorced,Mortgage,2024-10-28,1
+24.0,31666.43,727.0,23350.13,5.7,Master,Unemployed,Married,Rent,2025-05-07,0
+43.0,46682.04,731.0,21682.27,18.2,Master,Employed,Married,Own,2024-06-02,1
+41.0,28905.73,796.0,5358.27,2.0,Bachelor,Self-Employed,Single,Rent,2024-11-09,1
+63.0,38901.89,340.0,5184.69,27.9,High School,Employed,Divorced,Mortgage,2024-06-17,1
+54.0,33472.18,448.0,30554.14,1.3,Master,Employed,Married,Own,2023-02-25,1
+41.0,46906.42,485.0,5622.99,8.7,Bachelor,Employed,Single,Own,2023-05-01,1
+37.0,39568.68,848.0,7583.84,27.0,High School,Employed,Married,Rent,2024-06-14,1
+47.0,88088.87,527.0,1988.27,23.3,PhD,Self-Employed,Divorced,Rent,2023-01-26,1
+37.0,,,16334.9,6.3,Master,Employed,Divorced,Own,2023-03-14,0
+32.0,47079.95,522.0,6142.68,28.0,PhD,Employed,Married,Other,2023-02-14,0
+25.0,63588.31,502.0,3806.01,22.1,Bachelor,Employed,Divorced,Mortgage,2023-09-07,1
+35.0,70352.85,741.0,6920.11,22.2,Bachelor,Employed,Divorced,Rent,2024-02-09,1
+54.0,42202.2,453.0,35144.34,25.4,Master,Employed,Married,Rent,2025-04-27,0
+27.0,43234.92,390.0,19924.67,20.9,Master,Employed,Married,Mortgage,2024-12-04,1
+52.0,60684.07,417.0,15896.72,18.8,Master,Employed,Divorced,Mortgage,2025-07-07,1
+49.0,16327.96,417.0,1888.5,13.4,Bachelor,Retired,Married,Mortgage,2023-07-18,1
+19.0,41860.93,755.0,6525.05,27.1,Master,Retired,Married,Mortgage,2024-06-26,1
+52.0,71823.92,546.0,16996.49,25.3,Bachelor,Employed,Married,Other,2023-12-22,0
+23.0,29859.4,596.0,7460.34,37.8,Bachelor,Employed,Widowed,Rent,2023-11-20,0
+43.0,26846.93,544.0,16751.16,39.4,Bachelor,Retired,Married,Mortgage,2024-10-11,1
+54.0,41806.1,612.0,26364.3,37.4,High School,Employed,Single,Rent,2025-07-05,0
+56.0,53691.56,462.0,7641.93,3.5,Master,Employed,Married,Own,2023-08-24,0
+72.0,35944.67,380.0,2322.38,9.1,High School,Employed,Married,Rent,2024-08-03,0
+75.0,23885.27,818.0,10136.13,2.5,High School,Employed,Single,Own,2025-08-07,1
+55.0,54174.94,720.0,3324.02,6.9,Bachelor,Employed,Divorced,Rent,2025-08-01,0
+62.0,,787.0,10401.56,27.1,Master,Employed,Single,Mortgage,2025-06-26,1
+49.0,36492.01,367.0,769.27,25.8,High School,Employed,Single,Mortgage,2023-10-27,1
+56.0,64956.73,587.0,3710.64,1.1,High School,Self-Employed,Single,Rent,2023-03-02,1
+37.0,74311.52,537.0,1245.05,15.1,High School,Unemployed,Divorced,Mortgage,2023-11-24,1
+71.0,48968.14,840.0,8404.06,27.8,Bachelor,Unemployed,Single,Other,2025-07-20,1
+40.0,63204.44,329.0,19769.84,17.8,High School,Employed,Married,Other,2024-08-24,1
+50.0,62027.86,564.0,2636.84,30.7,Bachelor,Retired,Single,Own,2024-03-23,1
+27.0,44592.29,313.0,10672.74,32.2,Master,Retired,Married,Rent,2025-04-09,0
+65.0,,,12270.29,31.9,Master,Employed,Married,Own,2024-10-12,0
+43.0,51526.46,728.0,8879.58,8.7,Bachelor,Self-Employed,Married,Mortgage,2024-08-21,0
+40.0,56955.86,567.0,13589.97,5.9,High School,Retired,Married,Own,2024-06-28,1
+58.0,29037.23,487.0,2480.86,17.4,High School,Employed,Married,Own,2025-02-23,0
+28.0,64373.81,357.0,11704.7,24.1,Bachelor,Self-Employed,Married,Mortgage,2023-11-02,0
+33.0,52496.23,803.0,4672.23,3.7,Master,Employed,Single,Mortgage,2023-11-15,1
+54.0,65953.49,841.0,1368.94,5.1,Bachelor,Retired,Single,Other,2025-01-30,0
+57.0,56141.2,754.0,5307.98,12.3,Bachelor,Employed,Married,Own,2024-05-09,0
+58.0,18138.53,744.0,27332.82,39.0,High School,Self-Employed,Single,Own,2023-09-23,0
+77.0,72191.51,712.0,1603.78,1.9,Master,Employed,Married,Own,2023-04-21,1
+50.0,25916.85,572.0,6335.31,19.6,Bachelor,Self-Employed,Married,Own,2024-11-24,0
+29.0,48813.82,433.0,5422.86,6.7,Master,Employed,Married,Rent,2025-08-02,1
+74.0,40629.4,681.0,2274.48,34.7,High School,Self-Employed,Married,Rent,2024-06-11,1
+59.0,51647.79,612.0,40121.58,13.9,High School,Self-Employed,Married,Rent,2023-09-14,1
+76.0,36937.03,381.0,2069.19,33.1,Master,Employed,Single,Rent,2023-09-18,1
+74.0,43815.3,785.0,3065.31,39.8,High School,Unemployed,Married,Mortgage,2024-09-26,1
+60.0,58546.91,745.0,8268.05,36.5,Bachelor,Employed,Married,Rent,2025-04-03,0
+76.0,47421.3,723.0,17515.09,19.1,Bachelor,Employed,Married,Rent,2024-03-05,0
+33.0,42654.51,624.0,13776.86,0.3,High School,Employed,Married,Own,2024-09-22,0
+33.0,38045.73,489.0,21625.13,30.3,Bachelor,Self-Employed,Married,Own,2024-01-16,0
+39.0,58517.8,725.0,25844.32,23.7,PhD,Employed,Married,Rent,2024-03-09,0
+28.0,57589.1,446.0,818.15,9.0,PhD,Retired,Married,Own,2025-01-04,1
+61.0,,692.0,6161.91,15.2,,Employed,Single,Own,2023-05-18,0
+77.0,48224.03,430.0,5769.39,15.9,High School,Employed,Married,Own,2023-12-24,1
+53.0,61278.54,532.0,1362.62,11.9,Bachelor,Self-Employed,Married,Rent,2024-06-12,0
+70.0,69527.74,560.0,6587.47,0.3,High School,Employed,Single,Rent,2023-08-10,1
+41.0,67573.71,563.0,9239.19,9.7,High School,Employed,Married,Mortgage,2025-01-26,0
+43.0,63789.54,406.0,12474.99,20.1,Master,Unemployed,Single,Rent,2024-08-19,1
+32.0,52313.71,711.0,4691.73,14.4,PhD,Self-Employed,Married,Mortgage,2024-07-13,0
+77.0,51994.04,776.0,2281.87,21.9,High School,Employed,Married,Rent,2023-12-30,0
+75.0,60151.55,617.0,6255.92,21.0,High School,Retired,Single,Mortgage,2024-06-09,1
+53.0,60771.48,436.0,4225.16,37.1,Bachelor,Self-Employed,Single,Other,2023-07-28,0
+78.0,19821.23,759.0,9134.08,22.1,PhD,Retired,Single,Own,2024-02-16,0
+36.0,64252.68,686.0,9813.75,26.1,High School,Employed,Single,Mortgage,2023-12-01,1
+49.0,,804.0,532.9,16.8,,Employed,Married,Mortgage,2023-07-30,1
+67.0,,,3960.76,19.3,Bachelor,Employed,Widowed,Rent,2023-12-17,1
+78.0,79463.79,338.0,2927.9,36.5,High School,Employed,Single,Own,2023-03-20,1
+38.0,57878.18,690.0,6564.94,28.0,High School,Unemployed,Married,Own,2023-01-30,1
+73.0,37570.13,816.0,1235.14,3.3,Master,Self-Employed,Single,Rent,2023-10-08,0
+67.0,62690.2,656.0,4955.35,4.7,Master,Employed,Widowed,Own,2024-08-08,0
+35.0,64693.89,602.0,1337.83,7.3,High School,Retired,Widowed,Mortgage,2025-01-22,1
+66.0,51939.6,713.0,87.44,6.6,High School,Unemployed,Single,Other,2025-02-19,1
+54.0,52235.08,385.0,5980.49,30.5,High School,Employed,Divorced,Own,2023-10-17,1
+54.0,30633.13,572.0,13157.42,13.0,Bachelor,Employed,Married,Mortgage,2023-06-15,1
+18.0,47421.02,494.0,8162.81,6.6,Master,Employed,Single,Mortgage,2024-08-28,1
+56.0,37625.47,751.0,7380.46,3.9,Master,Self-Employed,Married,Mortgage,2025-05-24,0
+46.0,44083.67,716.0,625.19,17.4,Bachelor,Self-Employed,Single,Rent,2024-12-21,0
+31.0,57561.6,572.0,14421.41,5.5,Master,Employed,Married,Own,2023-03-07,0
+68.0,24726.92,311.0,12973.65,12.6,Master,Employed,Married,Mortgage,2023-05-22,0
+19.0,-3523.08,722.0,2299.18,21.8,High School,Self-Employed,Married,Mortgage,2023-10-03,1
+24.0,40355.03,329.0,1315.14,6.1,Master,Employed,Married,Mortgage,2025-04-15,1
+79.0,15727.71,469.0,16162.01,27.6,Bachelor,Self-Employed,Married,Mortgage,2024-10-17,0
+70.0,86807.63,793.0,6721.23,11.8,Bachelor,Employed,Married,Own,2024-04-10,1
+75.0,77175.38,788.0,172.99,39.5,Master,Employed,Married,Own,2024-11-01,0
+50.0,35360.3,567.0,8293.33,38.6,High School,Retired,Divorced,Rent,2023-11-16,0
+65.0,20712.7,753.0,356.35,25.8,Master,Employed,Married,Mortgage,2024-02-03,0
+73.0,53408.92,325.0,1554.17,20.9,Master,Employed,Divorced,Own,2023-11-03,0
+76.0,61219.71,746.0,9047.57,10.1,Master,Unemployed,Married,Rent,2023-11-04,1
+26.0,57541.99,459.0,6365.16,24.8,Master,Employed,Married,Mortgage,2025-04-08,0
+20.0,59342.0,685.0,14797.31,26.4,Master,Employed,Married,Mortgage,2023-11-30,1
+68.0,68088.73,468.0,142.92,31.6,Master,Employed,Single,Rent,2023-02-19,0
+35.0,56482.89,309.0,28204.22,20.5,Bachelor,Retired,Married,Other,2025-04-05,0
+46.0,67302.98,583.0,10295.12,11.8,Bachelor,Employed,Married,Mortgage,2023-01-03,0
+75.0,22298.41,402.0,5987.08,34.8,PhD,Self-Employed,Married,Mortgage,2024-07-02,1
+48.0,45151.02,559.0,880.68,26.9,Bachelor,Employed,Widowed,Mortgage,2023-12-19,0
+71.0,76613.19,551.0,1317.05,19.1,Bachelor,Unemployed,Divorced,Rent,2025-07-01,1
+53.0,62816.91,827.0,10595.36,19.0,PhD,Employed,Single,Own,2025-08-09,0
+28.0,63670.64,315.0,2416.49,1.1,PhD,Employed,Married,Other,2023-12-13,1
+78.0,19821.23,759.0,9134.08,22.1,PhD,Retired,Single,Own,2024-02-16,0
+28.0,41483.67,373.0,14488.52,1.6,Master,Self-Employed,Single,Rent,2025-04-04,1
+57.0,74282.03,567.0,12490.95,22.7,High School,Retired,Married,Rent,2024-08-04,0
+39.0,53605.27,741.0,52945.98,3.3,High School,Employed,Married,Mortgage,2023-02-03,0
+29.0,62039.78,839.0,11219.29,22.4,High School,Retired,Married,Mortgage,2023-02-01,1
+75.0,39644.01,707.0,1026.02,6.5,Bachelor,Employed,Married,Mortgage,2023-08-20,1
+56.0,66638.9,318.0,2436.36,16.6,High School,Employed,Married,Mortgage,2025-01-24,1
+68.0,,482.0,29800.29,29.0,,Retired,Married,Mortgage,2023-07-12,0
+56.0,46276.06,392.0,9450.42,24.6,Master,Employed,Married,Rent,2024-05-29,0
+32.0,44374.84,499.0,16599.96,12.0,Master,Employed,Married,Mortgage,2023-01-04,1
+62.0,11406.03,698.0,16271.85,10.6,Bachelor,Employed,Married,Mortgage,2023-07-24,1
+32.0,31625.97,467.0,3297.3,10.2,High School,Employed,Married,Mortgage,2024-06-23,1
+22.0,53459.61,358.0,32482.9,6.8,High School,Employed,Married,Other,2024-10-24,0
+76.0,,661.0,10427.51,2.9,High School,Unemployed,Married,Rent,2025-09-15,1
+40.0,74704.24,322.0,31308.67,37.6,Master,Self-Employed,Married,Mortgage,2023-04-20,0
+26.0,72137.8,487.0,20298.11,0.6,Master,Employed,Single,Mortgage,2024-08-25,0
+61.0,45895.85,521.0,16516.96,14.3,Master,Employed,Married,Rent,2023-03-19,0
+53.0,61995.37,601.0,1670.08,31.3,High School,Employed,Divorced,Own,2023-03-26,1
+24.0,57779.59,662.0,20728.29,4.4,High School,Self-Employed,Married,Rent,2024-06-10,1
+31.0,52671.93,448.0,4.43,23.1,Bachelor,Self-Employed,Married,Mortgage,2023-03-24,1
+50.0,84149.77,791.0,27379.49,21.9,High School,Self-Employed,Married,Rent,2023-09-12,1
+30.0,,848.0,11065.7,28.6,,Employed,Married,Rent,2025-02-03,1
+29.0,59613.56,580.0,12749.88,12.8,Bachelor,Employed,Married,Rent,2024-03-04,1
+77.0,43248.48,824.0,19172.0,37.3,Master,Employed,Married,Other,2025-07-04,0
+30.0,44016.61,703.0,11949.32,7.2,Master,Employed,Single,Rent,2024-06-07,0
+52.0,24368.49,624.0,13494.85,20.9,High School,Employed,Single,Mortgage,2024-04-12,1
+69.0,64284.4,662.0,13326.74,13.2,PhD,Employed,Married,Rent,2024-10-06,1
+25.0,51647.9,472.0,4114.93,17.6,Master,Unemployed,Widowed,Own,2023-01-06,0
+63.0,44608.44,442.0,7657.73,5.9,High School,Self-Employed,Married,Mortgage,2024-02-10,0
+77.0,52544.79,603.0,19875.73,10.9,High School,Employed,Single,Other,2024-04-13,0
+43.0,42668.45,735.0,48851.87,13.3,Master,Employed,Married,Mortgage,2023-04-08,1
+31.0,38006.92,686.0,25557.69,13.0,PhD,Self-Employed,Divorced,Own,2025-07-15,0
+43.0,68113.88,495.0,2602.9,23.7,PhD,Employed,Widowed,Mortgage,2023-12-26,1
+20.0,51657.36,832.0,13930.22,13.1,Bachelor,Employed,Married,Mortgage,2025-05-26,1
+69.0,28494.37,724.0,5630.67,13.8,Bachelor,Unemployed,Single,Own,2023-09-24,1
+25.0,10291.21,849.0,25773.76,39.1,Master,Employed,Married,Rent,2024-02-27,0
+47.0,51448.18,731.0,5294.88,19.0,Bachelor,Self-Employed,Divorced,Other,2024-04-07,1
+68.0,17691.81,403.0,6815.1,29.6,High School,Employed,Married,Own,2024-11-26,0
+30.0,44158.73,770.0,41894.74,19.1,High School,Self-Employed,Single,Mortgage,2025-08-31,1
+20.0,80253.31,431.0,11362.47,27.0,Master,Self-Employed,Married,Mortgage,2024-05-08,1
+64.0,57448.67,435.0,18304.57,21.5,Master,Retired,Married,Other,2023-04-29,1
+65.0,48472.76,378.0,47910.27,15.1,Bachelor,Unemployed,Married,Mortgage,2025-08-29,0
+44.0,39912.98,447.0,16950.55,8.7,Bachelor,Unemployed,Single,Mortgage,2023-09-08,0
+56.0,41579.5,559.0,2490.82,7.3,Bachelor,Employed,Married,Rent,2023-12-09,0
+75.0,52899.17,386.0,11711.82,34.5,High School,Employed,Married,Own,2023-01-10,1
+69.0,43905.88,775.0,15174.6,2.1,Bachelor,Employed,Divorced,Other,2023-07-16,0
+74.0,44025.19,779.0,24730.44,13.2,Bachelor,Employed,Divorced,Mortgage,2025-01-11,0
+52.0,50624.98,829.0,22503.99,5.6,Bachelor,Employed,Divorced,Rent,2023-03-23,0
+25.0,41022.6,354.0,423.85,16.6,High School,Self-Employed,Divorced,Other,2025-08-06,0
+50.0,49535.74,642.0,8726.18,39.9,High School,Employed,Married,Own,2024-04-24,0
+46.0,55628.77,726.0,17239.96,38.1,Bachelor,Employed,Single,Own,2024-09-17,1
+74.0,62111.26,481.0,6582.91,25.1,Master,Employed,Married,Mortgage,2023-08-28,1
+18.0,52148.23,542.0,7935.97,39.4,High School,Employed,Married,Other,2023-10-20,1
+24.0,39796.08,799.0,1533.5,0.4,High School,Unemployed,Married,Own,2023-07-31,0
+55.0,41739.09,562.0,27360.19,12.3,Master,Employed,Married,Mortgage,2025-06-19,1
+74.0,56484.63,526.0,11107.12,1.0,Bachelor,Self-Employed,Single,Rent,2023-12-28,1
+25.0,80306.03,482.0,17181.3,24.8,Bachelor,Employed,Single,Rent,2024-06-16,1
+37.0,33509.66,663.0,1328.26,20.5,Bachelor,Employed,Married,Own,2023-08-16,1
+48.0,59469.37,700.0,27951.61,32.5,Bachelor,Self-Employed,Married,Other,2025-05-14,1
+69.0,58115.03,775.0,12068.69,14.5,Bachelor,Employed,Single,Mortgage,2023-12-29,1
+62.0,62143.09,387.0,19289.78,32.5,Bachelor,Retired,Married,Mortgage,2025-05-02,1
+75.0,72817.58,527.0,9665.74,21.2,Bachelor,Employed,Married,Mortgage,2025-08-12,1
+34.0,75717.91,358.0,5720.71,37.2,High School,Employed,Married,Mortgage,2025-08-22,0
+19.0,48225.15,671.0,17057.81,5.1,Master,Retired,Married,Own,2024-01-01,1
+34.0,,500.0,1840.65,19.8,High School,Self-Employed,Married,Rent,2025-02-09,0
+62.0,81199.19,440.0,8594.71,25.7,PhD,Self-Employed,Divorced,Rent,2025-05-09,0
+54.0,45790.76,749.0,802.83,29.1,High School,Employed,Married,Other,2024-01-07,0
+38.0,78672.94,715.0,7739.52,37.6,High School,Employed,Single,Other,2023-01-08,0
+26.0,,835.0,4496.93,10.0,,Retired,Married,Rent,2023-06-05,1
+39.0,58667.25,744.0,18834.0,6.9,High School,Self-Employed,Married,Mortgage,2024-06-29,1
+40.0,15846.31,514.0,1914.55,35.4,Bachelor,Employed,Married,Own,2025-03-18,0
+50.0,51531.93,826.0,3114.3,29.3,High School,Retired,Married,Own,2024-04-30,1
+30.0,64097.72,610.0,4261.21,1.0,Bachelor,Employed,Single,Own,2024-08-07,0
+36.0,48571.32,589.0,207.34,23.8,High School,Retired,Married,Rent,2025-02-24,0
+22.0,,417.0,1094.56,16.9,Bachelor,Self-Employed,Divorced,Rent,2024-07-24,0
+52.0,39259.16,307.0,1295.34,3.0,Bachelor,Retired,Married,Other,2024-04-22,1
+69.0,68227.33,718.0,4887.71,14.1,High School,Employed,Single,Own,2024-08-05,1
+25.0,30031.55,474.0,916.21,21.1,Bachelor,Employed,Single,Mortgage,2025-07-31,1
+54.0,64554.48,464.0,6183.49,0.7,High School,Self-Employed,Married,Other,2024-11-28,1
+34.0,41787.64,352.0,10731.86,15.0,High School,Retired,Married,Own,2025-04-12,0
+33.0,24423.7,696.0,6623.16,8.6,Bachelor,Employed,Married,Mortgage,2024-06-18,1
+59.0,50714.05,348.0,2987.17,7.6,High School,Employed,Divorced,Rent,2024-08-10,0
+67.0,18176.66,823.0,5341.41,25.3,Bachelor,Employed,Divorced,Mortgage,2024-12-15,1
+22.0,63921.47,502.0,17653.39,9.3,PhD,Employed,Married,Rent,2024-03-27,1
+21.0,59272.11,813.0,4227.86,11.9,High School,Retired,Married,Own,2024-04-01,0
+47.0,58066.49,487.0,15972.49,7.8,Bachelor,Employed,Married,Rent,2023-08-17,1
+62.0,81199.19,440.0,8594.71,25.7,PhD,Self-Employed,Divorced,Rent,2025-05-09,0
+52.0,61293.14,846.0,4707.1,36.5,Bachelor,Employed,Widowed,Rent,2025-01-19,1
+76.0,24808.11,437.0,2400.27,34.3,Bachelor,Employed,Widowed,Rent,2023-08-01,1
+25.0,47041.67,796.0,2821.08,22.6,Bachelor,Employed,Widowed,Own,2023-03-21,1
+22.0,85848.17,369.0,3425.31,0.3,Bachelor,Employed,Divorced,Own,2023-05-29,1
+72.0,60332.57,512.0,13476.94,11.2,High School,Employed,Married,Mortgage,2023-10-30,0
+69.0,47869.42,408.0,5208.96,30.6,Master,Employed,Married,Other,2024-10-27,1
+77.0,59260.85,403.0,5961.74,5.7,Bachelor,Employed,Divorced,Own,2023-11-25,0
+36.0,25313.35,464.0,158.68,0.9,PhD,Self-Employed,Single,Mortgage,2024-10-31,1
+57.0,43636.77,843.0,9603.71,16.5,Master,Retired,Single,Rent,2023-12-11,1
+19.0,13173.12,816.0,8089.79,24.7,Bachelor,Self-Employed,Divorced,Mortgage,2024-12-12,1
+34.0,58340.85,561.0,7180.24,4.3,High School,Retired,Widowed,Rent,2024-05-22,0
+24.0,37778.24,530.0,10107.18,12.5,Bachelor,Self-Employed,Married,Own,2023-05-14,1
+39.0,56041.52,642.0,5912.89,20.1,Bachelor,Employed,Married,Rent,2024-07-08,0
+22.0,48547.61,396.0,5627.77,26.1,Master,Employed,Single,Rent,2023-11-08,1
+79.0,63122.52,787.0,28263.83,12.7,High School,Employed,Divorced,Own,2025-01-28,0
+64.0,42887.82,791.0,8566.3,23.2,PhD,Employed,Single,Own,2024-05-14,1
+56.0,70585.67,541.0,23689.49,14.3,Bachelor,Employed,Married,Rent,2023-01-01,1
+28.0,44495.4,726.0,10261.95,2.4,Master,Self-Employed,Married,Rent,2023-11-13,1
+68.0,57551.44,319.0,16620.93,2.4,Master,Retired,Single,Own,2024-12-14,1
+39.0,36060.02,819.0,2633.78,20.9,Bachelor,Self-Employed,Married,Own,2024-07-05,1
+76.0,57924.88,807.0,15166.58,22.3,Master,Employed,Divorced,Rent,2025-03-14,0
+29.0,67049.07,632.0,5271.91,14.5,Bachelor,Employed,Divorced,Rent,2024-06-20,1
+26.0,38219.7,425.0,9082.64,20.5,High School,Employed,Single,Rent,2025-01-15,1
+22.0,20387.94,740.0,20371.95,8.3,PhD,Employed,Divorced,Rent,2025-04-25,0
+18.0,53752.86,354.0,2914.41,15.3,Bachelor,Employed,Single,Other,2023-06-22,1
+77.0,,,17325.15,6.3,Bachelor,Employed,Single,Mortgage,2023-05-06,1
+62.0,43126.75,740.0,3188.85,29.8,High School,Employed,Married,Own,2025-09-16,0
+24.0,60943.14,441.0,1186.49,16.2,Bachelor,Employed,Divorced,Rent,2024-02-28,1
+33.0,53712.47,326.0,20826.92,32.6,PhD,Employed,Single,Rent,2025-03-19,1
+33.0,66253.77,832.0,14852.43,12.3,Bachelor,Employed,Married,Other,2025-06-30,1
+23.0,56003.28,534.0,10090.74,16.8,High School,Retired,Married,Own,2023-04-01,0
+70.0,70614.64,332.0,3478.23,4.9,PhD,Employed,Divorced,Rent,2025-08-05,1
+72.0,71487.23,705.0,1620.5,7.9,Bachelor,Employed,Married,Mortgage,2023-07-01,1
+56.0,41543.5,342.0,748.43,5.6,Bachelor,Retired,Married,Own,2023-10-02,0
+75.0,42042.39,327.0,6456.68,8.7,Bachelor,Employed,Married,Own,2025-06-22,1
+43.0,,,15344.27,3.1,PhD,Employed,Married,Rent,2023-03-11,1
+50.0,21789.62,593.0,1088.35,25.5,Master,Employed,Married,Own,2023-10-19,0
+18.0,57418.5,704.0,9009.16,38.7,High School,Employed,Single,Mortgage,2023-05-12,1
+23.0,53464.16,513.0,9300.92,0.9,Master,Employed,Married,Own,2023-10-28,1
+71.0,43818.91,470.0,10541.62,25.2,High School,Self-Employed,Married,Other,2025-07-21,0
+20.0,38085.46,371.0,1912.59,0.1,High School,Self-Employed,Single,Own,2023-11-23,1
+52.0,79955.12,717.0,17417.58,15.9,High School,Employed,Married,Mortgage,2023-05-25,0
+67.0,50954.27,705.0,3968.31,31.6,Master,Employed,Married,Mortgage,2024-05-12,0
+33.0,73064.17,408.0,27873.17,6.8,Master,Employed,Married,Mortgage,2024-11-08,1
+45.0,39363.1,311.0,9095.45,15.9,PhD,Employed,Married,Own,2025-08-08,0
+41.0,53989.33,411.0,3499.01,2.0,Bachelor,Employed,Single,Own,2023-05-16,0
+53.0,55700.71,657.0,1690.95,7.2,High School,Employed,Married,Rent,2025-02-20,1
+41.0,59801.0,319.0,3711.86,27.9,Master,Employed,Married,Mortgage,2023-06-14,0
+77.0,67244.35,510.0,19948.18,20.9,PhD,Employed,Married,Mortgage,2023-01-29,0
+58.0,64258.07,803.0,6081.06,26.9,Bachelor,Employed,Single,Mortgage,2025-08-18,0
+49.0,43620.18,780.0,10001.06,27.6,Master,Employed,Single,Rent,2023-07-13,0
+53.0,56379.94,755.0,11335.57,5.5,High School,Employed,Married,Own,2025-08-19,0
+79.0,73703.49,729.0,7219.6,18.0,Bachelor,Self-Employed,Married,Mortgage,2024-10-05,0
+39.0,62373.5,825.0,9406.63,32.8,High School,Self-Employed,Single,Mortgage,2023-06-19,1
+73.0,38566.38,389.0,50.39,28.2,High School,Self-Employed,Divorced,Rent,2025-09-12,1
+28.0,63228.95,613.0,488.13,3.7,Bachelor,Employed,Married,Own,2023-05-21,0
+52.0,62086.03,799.0,3166.83,24.8,Bachelor,Retired,Divorced,Rent,2023-06-23,1
+78.0,55136.85,766.0,12909.16,29.2,Bachelor,Employed,Single,Mortgage,2023-01-07,0
+66.0,26953.22,758.0,9551.71,3.3,PhD,Employed,Married,Own,2025-06-15,1
+78.0,46989.31,723.0,2381.23,30.8,Master,Employed,Single,Own,2024-04-26,0
+45.0,45692.9,734.0,471.51,2.1,PhD,Self-Employed,Married,Mortgage,2023-03-15,1
+67.0,51727.28,410.0,4766.3,13.0,Master,Unemployed,Single,Mortgage,2024-11-20,0
+33.0,61131.27,534.0,10861.42,24.4,Master,Employed,Single,Rent,2024-08-06,1
+18.0,49017.84,699.0,3693.76,2.0,Bachelor,Employed,Divorced,Rent,2023-08-27,1
+52.0,79759.88,736.0,7249.67,17.8,High School,Employed,Married,Own,2023-05-26,1
+52.0,55922.39,773.0,12264.76,12.4,Bachelor,Self-Employed,Married,Rent,2025-03-10,1
+42.0,36271.38,519.0,12248.33,10.4,High School,Employed,Married,Own,2023-08-23,1
+74.0,40960.28,373.0,3739.43,22.6,Master,Unemployed,Single,Rent,2023-08-09,1
+77.0,40930.58,600.0,10068.7,36.3,Bachelor,Employed,Married,Mortgage,2024-04-23,1
+43.0,50957.84,527.0,6031.44,29.2,Master,Employed,Divorced,Mortgage,2024-12-19,0
+42.0,59608.73,601.0,333.6,10.5,Bachelor,Retired,Single,Rent,2023-05-13,1
+42.0,,489.0,21333.78,5.4,,Self-Employed,Single,Mortgage,2024-06-05,1
+27.0,29180.81,828.0,2099.72,9.3,High School,Employed,Married,Other,2025-09-11,1
+26.0,57689.07,613.0,208.88,19.9,High School,Employed,Married,Own,2023-07-05,0
+45.0,58022.14,667.0,30580.34,9.1,Master,Employed,Married,Rent,2023-02-11,1
+57.0,75284.72,739.0,2549.46,15.0,Bachelor,Unemployed,Single,Mortgage,2024-09-08,1
+31.0,56023.41,318.0,2596.71,27.3,Bachelor,Retired,Widowed,Mortgage,2023-04-19,1
+75.0,29219.42,576.0,3665.88,8.0,Bachelor,Unemployed,Married,Rent,2024-08-17,0
+68.0,74176.89,787.0,34128.45,31.3,High School,Employed,Divorced,Other,2023-02-26,0
+71.0,70217.84,526.0,5436.75,35.8,Bachelor,Retired,Married,Rent,2024-02-13,0
+38.0,36752.64,764.0,4676.39,31.2,High School,Self-Employed,Divorced,Own,2024-03-21,0
+77.0,29880.88,749.0,4671.93,24.1,Master,Employed,Married,Rent,2024-07-21,1
+71.0,29641.17,322.0,8514.94,21.8,Bachelor,Employed,Divorced,Own,2025-05-18,0
+61.0,41551.12,665.0,7915.53,0.6,High School,Self-Employed,Married,Other,2023-01-25,1
+37.0,68452.42,742.0,115.59,3.2,PhD,Employed,Divorced,Mortgage,2024-02-25,0
+64.0,50754.6,675.0,23388.18,19.7,High School,Retired,Single,Own,2024-03-25,1
+31.0,70743.57,793.0,134.58,1.7,High School,Employed,Divorced,Mortgage,2024-06-19,1
+76.0,45941.0,683.0,1815.48,10.2,Master,Employed,Divorced,Own,2025-02-17,0
+27.0,74899.21,668.0,3624.49,11.4,High School,Self-Employed,Single,Own,2024-10-22,0
+33.0,59862.79,677.0,8129.59,5.3,High School,Employed,Married,Own,2025-07-23,0
+69.0,38605.41,785.0,4871.31,4.9,PhD,Employed,Single,Mortgage,2023-12-05,1
+72.0,29426.16,677.0,13172.26,22.5,Bachelor,Employed,Married,Mortgage,2023-02-21,1
+52.0,54394.9,828.0,2283.65,30.8,High School,Self-Employed,Married,Other,2024-12-16,0
+52.0,52845.81,348.0,2509.01,16.6,Bachelor,Unemployed,Married,Mortgage,2024-06-03,0
+48.0,64261.94,316.0,9435.87,14.0,Master,Unemployed,Single,Rent,2025-07-17,1
+22.0,66968.79,675.0,9943.6,36.7,High School,Employed,Single,Rent,2024-09-30,1
+41.0,43279.59,683.0,5304.43,9.9,High School,Employed,Married,Own,2023-09-22,1
+51.0,67488.71,631.0,428.92,21.2,Bachelor,Self-Employed,Widowed,Own,2024-06-25,1
+34.0,51377.09,603.0,8668.49,0.4,High School,Employed,Divorced,Own,2024-12-18,1
+29.0,58816.44,782.0,20280.7,33.8,Bachelor,Retired,Single,Mortgage,2024-11-19,0
+36.0,48654.57,522.0,5676.84,30.1,Master,Retired,Widowed,Mortgage,2024-08-12,1
+41.0,32218.7,435.0,13142.21,7.9,Bachelor,Self-Employed,Single,Own,2024-06-06,1
+50.0,53652.44,388.0,808.21,31.9,High School,Self-Employed,Married,Mortgage,2024-03-26,1
+41.0,54997.6,707.0,4373.7,25.3,High School,Unemployed,Married,Mortgage,2023-01-19,0
+27.0,39188.14,706.0,252.83,16.4,High School,Employed,Married,Rent,2024-12-23,0
+20.0,58266.02,325.0,4089.82,37.0,PhD,Employed,Single,Rent,2024-05-01,0
+21.0,56669.83,839.0,8699.2,0.4,Master,Employed,Married,Own,2024-07-26,1
+55.0,,,2942.13,29.5,Bachelor,Employed,Married,Own,2024-03-12,1
+65.0,,733.0,24249.93,34.5,High School,Employed,Married,Own,2024-01-03,1
+34.0,50534.53,696.0,23165.13,30.5,Bachelor,Unemployed,Married,Rent,2023-03-25,0
+35.0,46470.22,587.0,2640.17,20.9,Bachelor,Retired,Single,Own,2023-03-03,1
+71.0,56818.45,674.0,17609.4,10.3,Bachelor,Employed,Divorced,Rent,2024-03-16,1
+29.0,86447.72,653.0,4056.59,35.0,Bachelor,Employed,Married,Own,2023-09-30,0
+19.0,17385.15,365.0,3934.19,20.2,Master,Employed,Divorced,Mortgage,2023-10-13,1
+65.0,53457.31,681.0,7915.89,6.6,Master,Employed,Married,Mortgage,2023-12-27,0
+59.0,43719.43,805.0,19755.83,19.7,Bachelor,Employed,Single,Other,2023-12-21,0
+56.0,36676.84,421.0,17524.54,27.2,Bachelor,Self-Employed,Single,Mortgage,2024-10-14,1
+54.0,41484.21,793.0,15364.75,26.3,Master,Employed,Married,Mortgage,2023-10-06,0
+28.0,40335.87,499.0,6877.86,19.4,Bachelor,Employed,Married,Own,2023-01-13,1
+31.0,68220.83,408.0,4791.49,2.6,High School,Employed,Married,Own,2023-07-02,1
+79.0,54466.4,510.0,299.48,6.0,High School,Employed,Single,Mortgage,2024-01-04,1
+63.0,59569.6,647.0,14007.77,14.8,Bachelor,Employed,Divorced,Mortgage,2024-05-10,0
+78.0,43639.42,447.0,10633.68,9.8,Master,Self-Employed,Married,Own,2024-09-13,1
+45.0,42569.16,559.0,4897.77,21.4,Bachelor,Retired,Married,Rent,2023-08-12,0
+56.0,69879.04,620.0,41499.31,29.4,High School,Unemployed,Divorced,Mortgage,2025-03-21,1
+61.0,42834.8,566.0,25908.96,7.2,High School,Self-Employed,Single,Other,2024-12-06,0
+43.0,49375.68,513.0,39340.42,20.0,Bachelor,Employed,Single,Rent,2024-05-21,1
+79.0,41499.96,549.0,7202.48,14.9,Bachelor,Employed,Widowed,Rent,2024-07-03,0
+47.0,27912.37,426.0,9299.12,18.4,Bachelor,Self-Employed,Single,Own,2024-08-11,1
+53.0,64151.96,312.0,9016.06,10.2,High School,Employed,Divorced,Mortgage,2025-01-07,0
+31.0,22086.35,458.0,76928.4,39.9,Bachelor,Employed,Married,Mortgage,2023-06-26,0
+78.0,62037.06,413.0,2623.97,28.0,Bachelor,Employed,Divorced,Rent,2025-01-10,1
+39.0,38605.72,503.0,6236.03,20.8,High School,Self-Employed,Divorced,Rent,2024-09-25,1
+73.0,40089.39,707.0,19145.03,33.4,PhD,Employed,Married,Rent,2024-08-14,1
+34.0,67751.21,578.0,14885.6,36.2,Bachelor,Self-Employed,Single,Own,2024-08-13,0
+55.0,65429.64,365.0,16080.33,37.0,Master,Self-Employed,Married,Rent,2024-01-29,0
+79.0,56880.65,356.0,2121.03,28.5,Master,Retired,Divorced,Own,2023-06-13,1
+23.0,39225.45,698.0,9809.07,27.8,Master,Employed,Married,Rent,2023-09-06,0
+30.0,41948.92,545.0,559.26,35.6,High School,Self-Employed,Widowed,Rent,2024-12-08,1
+79.0,50372.79,827.0,64.56,32.1,Bachelor,Self-Employed,Married,Own,2025-06-12,0
+62.0,25606.73,653.0,7166.94,4.6,Bachelor,Employed,Married,Mortgage,2024-11-06,0
+26.0,44737.02,430.0,2425.1,12.3,Bachelor,Unemployed,Single,Own,2024-01-11,1
+58.0,65283.3,700.0,2245.18,32.5,PhD,Employed,Divorced,Own,2024-02-17,1
+64.0,44380.08,412.0,16506.73,22.3,Master,Retired,Married,Own,2023-03-16,1
+57.0,32962.02,666.0,5645.44,36.0,Master,Self-Employed,Divorced,Own,2023-04-24,1
+64.0,48215.03,595.0,14208.94,35.0,Master,Self-Employed,Single,Own,2024-08-01,0
+29.0,50735.8,455.0,4555.26,36.5,High School,Self-Employed,Married,Own,2025-07-27,0
+66.0,62565.46,572.0,14729.1,5.1,Master,Employed,Married,Mortgage,2024-01-26,1
+48.0,70146.48,577.0,36640.79,1.8,Master,Self-Employed,Married,Own,2023-04-15,1
+38.0,53389.96,580.0,12699.7,38.5,Bachelor,Self-Employed,Single,Own,2023-04-25,1
+31.0,21432.32,550.0,2357.59,15.6,High School,Employed,Single,Mortgage,2024-02-22,1
+45.0,51373.79,593.0,14199.23,17.6,Bachelor,Self-Employed,Married,Rent,2024-08-16,1
+52.0,42444.43,426.0,6196.06,11.1,Bachelor,Employed,Married,Other,2024-04-02,1
+52.0,69461.09,612.0,6933.07,32.9,High School,Self-Employed,Single,Mortgage,2024-02-14,0
+59.0,,833.0,331.62,37.5,,Self-Employed,Married,Mortgage,2023-04-03,1
+61.0,28608.12,565.0,9996.42,32.1,High School,Employed,Single,Rent,2024-07-22,1
+79.0,53787.2,555.0,6569.1,3.1,PhD,Employed,Single,Own,2023-03-31,1
+49.0,70201.19,582.0,518.08,26.0,Master,Employed,Married,Own,2023-12-03,1
+64.0,47032.93,755.0,12627.35,25.0,Bachelor,Self-Employed,Single,Own,2025-09-25,1
+18.0,-826.42,481.0,2229.45,34.5,Master,Employed,Single,Own,2025-07-18,1
+33.0,26560.18,801.0,5640.72,10.2,Master,Unemployed,Married,Rent,2025-07-30,0
+49.0,46921.18,659.0,5640.28,33.0,High School,Unemployed,Single,Mortgage,2024-09-03,0
+70.0,45889.52,674.0,2050.25,37.4,Bachelor,Employed,Married,Rent,2024-08-22,0
+62.0,43095.57,306.0,7523.12,25.0,High School,Self-Employed,Divorced,Other,2024-09-09,1
+71.0,32453.47,840.0,5876.44,10.0,Bachelor,Self-Employed,Married,Mortgage,2023-04-05,0
+40.0,59015.81,307.0,26679.66,6.9,Bachelor,Employed,Married,Rent,2023-01-12,0
+79.0,51552.17,455.0,24681.34,12.7,Bachelor,Employed,Married,Rent,2024-02-01,1
+36.0,40566.07,822.0,7341.23,36.5,High School,Self-Employed,Married,Other,2025-05-23,1
+33.0,53414.03,636.0,2473.31,31.3,Master,Employed,Single,Mortgage,2023-02-13,1
+77.0,78588.61,519.0,7392.74,35.8,Bachelor,Self-Employed,Single,Other,2023-02-12,1
+76.0,31997.45,509.0,9474.15,0.7,Bachelor,Employed,Married,Other,2023-11-26,1
+61.0,59121.71,815.0,5377.58,8.4,High School,Unemployed,Married,Own,2023-06-17,1
+39.0,43032.4,493.0,223.9,13.8,High School,Employed,Married,Mortgage,2024-05-15,1
+45.0,38700.53,795.0,2225.25,0.2,High School,Retired,Divorced,Other,2025-06-03,1
+29.0,72855.26,663.0,12886.03,9.9,PhD,Employed,Single,Own,2024-08-26,1
+45.0,31427.56,330.0,8914.71,31.3,PhD,Self-Employed,Single,Own,2025-06-11,1
+27.0,26592.41,706.0,5371.76,9.0,Bachelor,Unemployed,Divorced,Rent,2023-04-11,0
+50.0,53842.42,841.0,28565.15,35.7,Bachelor,Employed,Widowed,Other,2024-03-02,1
+18.0,60302.48,359.0,2490.88,18.4,Master,Employed,Single,Mortgage,2023-06-28,1
+51.0,46323.96,736.0,10002.61,3.7,PhD,Employed,Divorced,Rent,2024-03-20,1
+50.0,71662.6,414.0,287.2,9.0,Master,Employed,Married,Rent,2024-02-21,0
+53.0,29554.41,424.0,23340.11,6.6,Bachelor,Employed,Married,Mortgage,2024-10-15,0
+20.0,54470.78,696.0,25839.2,34.9,High School,Self-Employed,Divorced,Own,2025-06-09,1
+51.0,39444.54,799.0,18916.62,13.2,High School,Employed,Married,Mortgage,2024-10-26,0
+20.0,64954.1,487.0,5204.57,7.6,High School,Retired,Married,Rent,2023-06-27,1
+37.0,44262.75,547.0,20039.14,20.0,High School,Self-Employed,Married,Mortgage,2024-01-31,1
+66.0,21219.88,599.0,10170.02,4.5,Bachelor,Employed,Single,Rent,2024-11-13,0
+42.0,36567.36,483.0,1695.8,10.6,High School,Employed,Married,Other,2025-03-12,1
+45.0,56273.1,504.0,932.01,0.1,Bachelor,Employed,Single,Mortgage,2025-08-28,1
+22.0,64028.57,442.0,3187.6,30.1,High School,Employed,Divorced,Own,2025-09-07,1
+41.0,40116.52,340.0,3331.05,13.0,PhD,Employed,Married,Own,2024-01-19,1
+50.0,55705.38,788.0,3259.09,29.9,Bachelor,Employed,Single,Rent,2025-08-24,0
+70.0,,495.0,17482.27,0.5,,Employed,Married,Mortgage,2024-09-10,0
+61.0,66944.74,464.0,9888.44,16.3,Bachelor,Self-Employed,Divorced,Mortgage,2023-09-15,1
+37.0,58093.59,558.0,4676.94,10.0,High School,Employed,Single,Own,2023-12-02,1
+70.0,40261.29,342.0,5372.42,38.0,Master,Employed,Married,Other,2023-01-16,1
+46.0,28820.59,330.0,5365.55,8.1,High School,Self-Employed,Married,Own,2024-09-27,0
+33.0,75521.44,463.0,2870.48,30.6,Bachelor,Employed,Single,Own,2023-11-21,1
+40.0,54681.19,300.0,22246.35,14.5,Bachelor,Unemployed,Married,Rent,2025-02-04,0
+23.0,40588.72,655.0,7065.82,2.5,PhD,Employed,Married,Rent,2023-08-11,1
+22.0,14906.1,618.0,14375.16,17.2,High School,Employed,Married,Rent,2023-06-29,0
+50.0,68088.9,806.0,28392.91,36.7,Bachelor,Self-Employed,Divorced,Rent,2025-09-20,1
+42.0,,489.0,21333.78,5.4,,Self-Employed,Single,Mortgage,2024-06-05,1
+19.0,42231.32,576.0,26403.02,1.8,PhD,Employed,Divorced,Mortgage,2023-01-23,1
+24.0,55573.91,836.0,7189.29,32.2,Master,Employed,Married,Other,2023-12-23,1
+33.0,41710.58,640.0,5147.25,24.7,High School,Employed,Divorced,Mortgage,2024-11-10,0
+56.0,47163.78,534.0,4119.6,37.0,Bachelor,Employed,Widowed,Mortgage,2025-05-19,1
+50.0,48965.29,428.0,7808.64,4.5,Master,Employed,Widowed,Rent,2023-12-07,0
+39.0,41671.64,453.0,16390.96,19.6,Bachelor,Employed,Widowed,Rent,2024-03-07,0
+69.0,41498.07,410.0,6510.39,13.3,Bachelor,Employed,Married,Own,2025-03-13,0
+67.0,39636.79,311.0,17029.59,25.3,Bachelor,Employed,Divorced,Rent,2025-04-21,1
+56.0,52733.61,346.0,1034.01,12.2,High School,Self-Employed,Single,Mortgage,2023-07-23,1
+31.0,57234.08,687.0,21934.09,10.3,Bachelor,Employed,Single,Mortgage,2024-09-28,1
+21.0,59765.98,765.0,594.35,12.5,Master,Employed,Married,Rent,2023-04-04,0
+70.0,57155.06,750.0,31.46,32.3,Bachelor,Employed,Married,Own,2025-03-17,1
+26.0,46462.1,787.0,18042.85,29.8,Master,Self-Employed,Divorced,Mortgage,2023-03-10,0
+29.0,30331.68,425.0,15450.95,7.8,Bachelor,Retired,Single,Own,2024-09-20,1
+19.0,68333.05,356.0,46420.19,17.8,High School,Employed,Married,Mortgage,2023-10-12,0
+25.0,61839.73,526.0,3480.68,17.8,Bachelor,Employed,Divorced,Mortgage,2025-06-04,0
+63.0,37909.55,574.0,5857.4,27.8,High School,Employed,Married,Own,2024-03-10,1
+45.0,,,8926.5,20.0,Master,Employed,Married,Mortgage,2023-06-03,0
+77.0,37719.85,421.0,1958.79,6.2,Bachelor,Employed,Single,Mortgage,2023-03-17,0
+53.0,64151.96,312.0,9016.06,10.2,High School,Employed,Divorced,Mortgage,2025-01-07,0
+47.0,40271.72,585.0,3167.66,26.9,High School,Employed,Single,Mortgage,2024-03-22,1
+43.0,57193.71,731.0,3131.32,5.2,High School,Unemployed,Married,Other,2023-07-08,1
+69.0,34990.7,588.0,876.51,25.9,Master,Employed,Married,Rent,2023-09-29,1
+79.0,,,7781.27,3.6,Master,Self-Employed,Divorced,Own,2023-08-25,1
+35.0,50583.16,705.0,13838.59,39.0,High School,Employed,Married,Other,2024-05-02,1
+35.0,,410.0,3950.27,21.3,Bachelor,Employed,Married,Own,2023-04-28,0
+64.0,32868.1,783.0,159.5,27.2,Bachelor,Unemployed,Single,Rent,2025-04-06,1
+71.0,38268.56,748.0,30249.97,39.4,High School,Employed,Divorced,Own,2024-05-27,1
+59.0,88460.87,719.0,9375.37,31.7,High School,Employed,Married,Other,2024-07-11,1
+54.0,58287.86,719.0,4881.06,2.7,High School,Employed,Married,Mortgage,2024-08-20,1
+62.0,58495.1,782.0,21972.11,8.8,PhD,Self-Employed,Married,Rent,2023-05-07,0
+62.0,49831.59,528.0,5577.46,30.0,PhD,Unemployed,Married,Rent,2023-04-27,1
+66.0,60253.79,334.0,4234.71,39.1,Bachelor,Unemployed,Married,Rent,2024-04-18,0
+26.0,34109.22,494.0,15822.16,26.4,Bachelor,Employed,Single,Mortgage,2025-08-23,1
+24.0,37805.67,673.0,4988.87,9.6,High School,Employed,Widowed,Rent,2023-02-27,0
+72.0,56497.17,682.0,4952.7,8.3,Master,Employed,Married,Rent,2024-11-11,0
+37.0,39167.28,343.0,2427.1,36.9,Bachelor,Employed,Married,Rent,2025-07-09,1
+29.0,24206.88,676.0,4400.12,34.1,High School,Self-Employed,Married,Own,2024-01-05,1
+79.0,54546.58,477.0,9301.48,12.5,Master,Self-Employed,Single,Rent,2023-09-26,1
+79.0,56911.06,628.0,1937.01,34.5,Bachelor,Self-Employed,Single,Rent,2023-02-16,0
+42.0,30008.83,832.0,13579.98,33.7,Bachelor,Self-Employed,Single,Rent,2023-12-16,1
+66.0,77614.15,412.0,8211.89,32.2,Master,Self-Employed,Single,Other,2023-07-15,0
+18.0,46797.91,312.0,21160.77,18.6,Bachelor,Employed,Divorced,Mortgage,2023-05-17,0
+44.0,75084.19,589.0,7136.53,29.0,PhD,Self-Employed,Single,Mortgage,2025-04-22,0
+27.0,42384.8,648.0,2827.42,16.5,Bachelor,Employed,Single,Other,2025-01-13,0
+49.0,45055.74,670.0,2124.85,32.1,High School,Retired,Married,Own,2023-09-21,1
+44.0,59549.47,419.0,15434.52,39.8,PhD,Retired,Married,Rent,2024-03-19,1
+74.0,83756.82,530.0,5829.42,0.8,Master,Employed,Married,Rent,2025-03-20,1
+72.0,,,7976.33,4.0,Bachelor,Employed,Single,Mortgage,2023-11-01,1
+57.0,11326.77,819.0,28076.19,39.9,Bachelor,Employed,Married,Own,2023-12-08,0
+70.0,55579.4,750.0,13694.51,34.7,High School,Self-Employed,Widowed,Mortgage,2024-08-27,0
+78.0,76238.62,403.0,2212.59,22.2,Master,Self-Employed,Single,Mortgage,2025-09-03,0
+59.0,40933.78,510.0,26737.93,37.7,High School,Employed,Married,Own,2023-05-30,1
+77.0,76927.47,748.0,14401.52,36.3,Bachelor,Employed,Married,Mortgage,2023-05-05,1
+36.0,52452.16,461.0,14997.02,23.2,High School,Employed,Married,Mortgage,2025-03-04,1
+75.0,87020.78,477.0,8200.24,3.3,Bachelor,Employed,Married,Rent,2025-04-10,1
+61.0,55633.82,516.0,17683.85,29.9,High School,Self-Employed,Single,Rent,2023-02-20,1
+47.0,67145.99,401.0,16460.46,29.0,Bachelor,Employed,Widowed,Own,2023-12-20,0
+40.0,52130.76,487.0,19413.74,39.1,PhD,Employed,Married,Mortgage,2025-07-24,1
+34.0,38780.45,508.0,14868.05,1.7,Master,Self-Employed,Married,Rent,2023-05-23,0
+54.0,48693.37,500.0,15579.48,23.9,High School,Self-Employed,Married,Other,2024-04-15,1
+79.0,45807.51,500.0,15482.17,11.5,High School,Retired,Single,Own,2024-02-04,1
+68.0,96410.74,691.0,1632.35,1.0,Master,Employed,Married,Own,2024-09-23,0
+26.0,49701.65,307.0,5990.86,5.4,High School,Self-Employed,Married,Rent,2023-11-17,1
+20.0,46131.47,782.0,29773.27,23.3,Bachelor,Employed,Single,Mortgage,2023-01-20,1
+48.0,72644.94,580.0,7923.88,0.0,High School,Employed,Divorced,Own,2025-03-28,1
+29.0,41281.47,312.0,9602.92,11.7,Master,Self-Employed,Single,Other,2025-03-11,0
+31.0,54751.13,612.0,4262.74,5.5,PhD,Unemployed,Married,Rent,2025-03-27,0
+19.0,9312.64,832.0,15324.18,32.6,High School,Self-Employed,Married,Mortgage,2024-02-12,0
+68.0,43145.49,426.0,10434.83,3.9,Master,Employed,Divorced,Other,2024-06-21,1
+72.0,41555.09,778.0,6190.1,35.3,Bachelor,Self-Employed,Single,Rent,2024-09-18,1
+44.0,19561.54,619.0,10120.82,14.5,Master,Employed,Divorced,Own,2023-02-08,0
+64.0,,461.0,4109.27,31.2,,Employed,Married,Own,2023-06-25,1
+58.0,54694.61,495.0,21147.87,30.4,Bachelor,Self-Employed,Divorced,Other,2023-09-03,0
+63.0,30103.69,559.0,11990.87,13.1,Master,Employed,Married,Rent,2025-04-16,0
+73.0,39295.75,678.0,3695.52,22.0,Bachelor,Employed,Married,Other,2024-11-04,0
+29.0,83691.93,364.0,4269.55,23.0,High School,Employed,Single,Mortgage,2025-01-31,1
+78.0,33570.75,517.0,4117.05,24.0,PhD,Self-Employed,Married,Other,2025-05-16,1
+24.0,60259.42,319.0,632.92,17.4,Bachelor,Employed,Married,Own,2023-06-04,0
+71.0,40639.56,443.0,24619.46,6.8,Master,Self-Employed,Widowed,Rent,2023-10-15,1
+52.0,,482.0,2222.01,8.4,Bachelor,Self-Employed,Single,Other,2025-03-31,0
+61.0,,,1002.31,18.8,Bachelor,Employed,Married,Rent,2024-07-23,0
+65.0,45206.65,585.0,16098.05,2.4,Master,Retired,Married,Mortgage,2025-01-20,1
+57.0,35956.32,734.0,14316.61,29.4,Master,Employed,Married,Mortgage,2023-01-18,0
+58.0,62477.27,523.0,7863.72,20.7,Bachelor,Employed,Single,Own,2023-05-08,1
+76.0,49035.61,775.0,8760.06,35.6,High School,Self-Employed,Single,Mortgage,2023-11-19,1
+68.0,25560.46,441.0,19016.65,29.4,Master,Employed,Married,Own,2023-09-13,1
+65.0,74365.73,493.0,777.68,25.1,Master,Self-Employed,Divorced,Rent,2025-02-13,0
+63.0,70541.61,517.0,27968.23,34.5,Bachelor,Employed,Married,Other,2025-09-01,0
+77.0,64551.17,482.0,6575.24,17.7,Bachelor,Employed,Married,Rent,2023-07-10,1
+33.0,62596.21,427.0,8285.65,17.8,Bachelor,Employed,Single,Own,2023-04-26,1
+56.0,44698.6,501.0,17359.51,23.9,High School,Employed,Single,Mortgage,2024-09-14,1
+75.0,,455.0,8786.77,16.6,High School,Employed,Married,Own,2024-08-29,1
+43.0,15664.08,510.0,7819.15,12.2,Bachelor,Employed,Divorced,Rent,2023-06-30,0
+49.0,39260.36,675.0,7273.04,17.2,Master,Employed,Divorced,Rent,2023-10-29,0
+65.0,,740.0,14982.96,0.0,,Employed,Married,Other,2024-05-28,0
+50.0,25837.33,461.0,12176.77,25.5,Master,Unemployed,Married,Own,2025-06-18,0
+75.0,43969.48,810.0,21338.19,9.8,High School,Self-Employed,Single,Own,2024-12-31,1
+75.0,63843.98,653.0,13327.15,14.7,Bachelor,Self-Employed,Divorced,Mortgage,2025-04-23,1
+27.0,47907.42,367.0,836.23,26.1,Master,Self-Employed,Single,Own,2024-10-29,1
+72.0,52316.11,590.0,5244.5,15.9,Bachelor,Unemployed,Single,Mortgage,2024-06-01,1
+71.0,45393.58,600.0,15334.32,4.3,Bachelor,Unemployed,Widowed,Mortgage,2025-09-21,1
+79.0,71295.09,659.0,25181.0,24.7,Bachelor,Self-Employed,Single,Rent,2023-02-15,0
+53.0,64716.03,348.0,56263.48,16.1,Bachelor,Retired,Married,Rent,2025-07-06,1
+29.0,47161.89,453.0,2238.44,11.0,Bachelor,Employed,Single,Rent,2023-06-07,1
+53.0,64222.65,356.0,21592.06,27.8,Bachelor,Self-Employed,Married,Own,2025-01-21,0
+52.0,44024.4,635.0,17038.96,5.3,Bachelor,Employed,Divorced,Own,2023-06-21,1
+53.0,37272.19,684.0,3594.17,5.5,Bachelor,Self-Employed,Married,Own,2023-01-17,0
+60.0,55146.64,661.0,14827.47,18.1,High School,Employed,Married,Own,2024-05-26,1
+79.0,27152.59,681.0,131.15,34.9,PhD,Employed,Single,Mortgage,2023-02-18,1
+64.0,42593.44,839.0,4176.77,29.3,High School,Employed,Single,Rent,2025-09-08,0
+55.0,25263.76,395.0,26930.05,15.9,Master,Self-Employed,Single,Own,2025-04-28,0
+46.0,41076.65,723.0,19470.73,24.7,Bachelor,Retired,Married,Own,2024-05-30,1
+50.0,71068.15,808.0,10025.91,29.2,PhD,Employed,Married,Rent,2024-11-23,1
+69.0,57601.02,730.0,1260.34,28.0,Bachelor,Employed,Married,Rent,2024-04-25,0
+66.0,64272.71,411.0,9190.51,1.2,High School,Self-Employed,Married,Mortgage,2023-10-11,1
+36.0,65686.03,593.0,13532.57,0.3,Bachelor,Retired,Married,Own,2025-04-29,0
+27.0,74899.21,668.0,3624.49,11.4,High School,Self-Employed,Single,Own,2024-10-22,0
+61.0,44160.68,612.0,161.92,30.1,Bachelor,Retired,Single,Other,2023-08-14,0
+55.0,70951.9,735.0,6135.93,4.2,High School,Employed,Single,Mortgage,2023-01-27,0
+45.0,54171.59,657.0,3602.23,7.1,Bachelor,Self-Employed,Divorced,Mortgage,2025-02-28,0
+55.0,18721.74,626.0,13568.55,26.7,Master,Employed,Single,Rent,2024-03-13,0
+54.0,42390.01,524.0,4151.67,34.1,High School,Employed,Single,Rent,2025-08-17,1
+66.0,,564.0,10612.99,33.6,,Employed,Single,Own,2023-12-31,0
+79.0,29619.33,842.0,9568.83,3.7,High School,Retired,Single,Rent,2023-08-18,0
+66.0,43193.05,819.0,1152.91,3.0,PhD,Employed,Divorced,Mortgage,2023-02-07,0
+52.0,44239.52,815.0,6029.66,4.2,Bachelor,Employed,Divorced,Mortgage,2025-09-02,0
+72.0,18209.64,525.0,5529.88,24.2,High School,Unemployed,Married,Rent,2024-01-10,1
+58.0,49954.81,575.0,7590.5,16.0,PhD,Employed,Single,Mortgage,2024-04-14,1
+23.0,61910.26,692.0,1801.86,20.5,Master,Employed,Married,Mortgage,2025-09-04,1
+42.0,34663.47,751.0,9259.65,26.3,PhD,Unemployed,Divorced,Own,2025-05-08,0
+78.0,26833.03,483.0,13775.1,22.7,Bachelor,Unemployed,Married,Mortgage,2024-12-13,1
+67.0,59270.43,415.0,17945.15,8.0,Master,Employed,Married,Rent,2025-01-02,0
+56.0,49223.62,445.0,1391.95,13.6,PhD,Employed,Single,Rent,2023-07-14,1
+64.0,15590.35,364.0,11087.61,16.1,High School,Self-Employed,Single,Other,2025-06-28,1
+43.0,,835.0,2912.16,10.9,Bachelor,Self-Employed,Single,Own,2025-05-22,1
+44.0,40557.25,660.0,6845.91,3.1,Bachelor,Employed,Divorced,Rent,2024-05-18,1
+68.0,32096.05,630.0,12383.32,32.9,High School,Unemployed,Married,Mortgage,2025-09-06,0
+75.0,14966.41,654.0,3083.88,2.5,Master,Employed,Married,Mortgage,2025-06-01,1
+52.0,32331.55,557.0,147.36,0.5,Bachelor,Unemployed,Single,Other,2024-08-02,1
+35.0,56863.06,733.0,2744.23,11.3,Bachelor,Employed,Married,Rent,2025-09-05,1
+40.0,43363.51,487.0,532.96,33.1,High School,Retired,Single,Mortgage,2023-06-12,0
+29.0,75736.34,694.0,10335.46,26.1,Master,Employed,Widowed,Mortgage,2024-12-09,0
+58.0,56772.74,680.0,7593.33,30.7,High School,Unemployed,Divorced,Mortgage,2023-06-02,0
+41.0,,579.0,8427.72,25.9,,Employed,Divorced,Own,2024-11-18,1
+46.0,40641.95,439.0,9987.04,38.3,Bachelor,Employed,Single,Mortgage,2024-12-07,1
+66.0,45454.53,591.0,5716.27,2.4,Bachelor,Unemployed,Married,Own,2025-02-01,0
+74.0,79792.05,329.0,11380.29,12.8,Bachelor,Employed,Single,Rent,2023-04-22,0
+61.0,31475.83,481.0,15240.46,5.3,Bachelor,Employed,Single,Own,2023-08-15,1
+78.0,57557.24,398.0,5852.97,25.2,High School,Employed,Widowed,Rent,2024-11-25,1
+31.0,18339.51,760.0,20984.66,30.9,Bachelor,Self-Employed,Married,Mortgage,2023-04-14,0
+73.0,62540.92,653.0,5255.62,33.2,Master,Employed,Divorced,Mortgage,2024-02-26,1
+65.0,70828.87,706.0,12481.34,5.5,Bachelor,Self-Employed,Single,Other,2024-02-24,0
+40.0,80425.36,412.0,9649.34,3.7,Bachelor,Employed,Single,Rent,2025-01-27,0
+77.0,45149.66,512.0,1727.82,5.1,Bachelor,Employed,Married,Rent,2024-08-09,1
+26.0,33349.43,382.0,4550.69,2.7,Bachelor,Employed,Single,Rent,2025-02-26,1
+18.0,54023.25,664.0,12247.15,38.7,Master,Employed,Single,Mortgage,2024-11-03,1
+70.0,47086.23,661.0,1552.68,11.1,Bachelor,Employed,Single,Rent,2023-04-30,1
+74.0,19062.11,489.0,11983.59,16.9,Master,Self-Employed,Married,Mortgage,2023-02-23,0
+75.0,52393.0,431.0,7912.02,4.3,Bachelor,Self-Employed,Married,Own,2023-06-01,0
+46.0,47689.45,815.0,17936.2,12.9,Bachelor,Self-Employed,Single,Mortgage,2024-02-08,1
+25.0,36163.51,783.0,3504.86,34.8,Master,Employed,Married,Mortgage,2025-08-11,1
+46.0,79989.76,374.0,19002.69,1.4,Bachelor,Unemployed,Married,Mortgage,2023-07-27,1
+40.0,42855.49,386.0,6270.33,37.1,Master,Employed,Married,Rent,2024-10-20,0
+65.0,53773.57,642.0,1411.65,36.9,High School,Employed,Single,Own,2025-05-01,1
+67.0,83276.32,498.0,23514.22,9.7,High School,Employed,Married,Own,2025-09-14,1
+56.0,54793.06,748.0,625.45,24.2,Bachelor,Employed,Divorced,Mortgage,2023-01-09,1
+78.0,63296.72,737.0,2571.41,25.4,Bachelor,Employed,Married,Own,2025-06-27,1
+42.0,53767.92,651.0,10762.06,3.9,Bachelor,Retired,Married,Own,2023-02-06,0
+77.0,48543.51,633.0,4290.77,9.0,PhD,Unemployed,Divorced,Other,2024-03-28,0
+38.0,56589.54,784.0,34192.67,30.3,High School,Employed,Married,Own,2024-10-13,0
+54.0,,,3752.22,36.4,Bachelor,Employed,Married,Other,2023-09-11,1
+21.0,57001.74,378.0,9961.47,5.2,Master,Employed,Married,Other,2023-10-31,1
+66.0,29977.94,462.0,2238.35,12.8,Bachelor,Unemployed,Single,Other,2025-01-23,1
+56.0,54746.39,676.0,498.81,39.8,PhD,Self-Employed,Single,Rent,2024-07-25,1
+22.0,19600.07,743.0,652.22,15.4,High School,Self-Employed,Married,Mortgage,2024-09-15,0
+40.0,34016.54,446.0,432.65,39.8,Bachelor,Unemployed,Divorced,Rent,2024-12-17,1
+61.0,75345.36,625.0,11220.85,3.5,High School,Employed,Divorced,Rent,2025-06-23,1
+49.0,70245.57,604.0,4954.15,13.5,Master,Self-Employed,Single,Mortgage,2023-09-20,1
+51.0,81736.34,322.0,31820.1,32.8,Master,Employed,Single,Other,2024-09-02,0
+61.0,50923.53,453.0,2287.1,26.6,Bachelor,Employed,Married,Rent,2023-10-25,1
+50.0,12059.94,506.0,5236.29,26.7,High School,Unemployed,Married,Other,2024-02-19,0
+56.0,46801.89,400.0,4972.91,9.5,Master,Retired,Married,Own,2023-05-31,0
+19.0,57692.65,532.0,24445.25,28.9,Bachelor,Employed,Married,Own,2025-09-10,0
+66.0,70766.63,742.0,15314.24,32.9,Bachelor,Employed,Married,Other,2024-10-02,0
+28.0,59489.32,418.0,26221.73,39.8,High School,Employed,Single,Mortgage,2025-07-26,1
+78.0,67452.28,752.0,45298.54,24.6,High School,Employed,Divorced,Rent,2024-07-04,0
+22.0,,,17679.31,34.5,High School,Employed,Divorced,Mortgage,2025-03-09,1
+42.0,50649.08,531.0,8484.27,33.3,Master,Employed,Single,Rent,2024-05-03,0
+63.0,42785.81,775.0,723.56,27.0,Bachelor,Retired,Widowed,Mortgage,2024-12-11,0
+76.0,34810.73,319.0,464.66,26.3,High School,Unemployed,Single,Other,2023-05-28,0
+50.0,59399.24,676.0,6223.04,35.7,Bachelor,Employed,Single,Mortgage,2023-05-27,1
+18.0,30350.34,689.0,1806.86,33.0,Bachelor,Employed,Married,Mortgage,2025-05-03,0
+27.0,46539.49,764.0,3827.98,8.9,Master,Employed,Married,Mortgage,2025-07-28,0
+41.0,63522.12,576.0,6963.04,5.2,Bachelor,Unemployed,Married,Own,2025-01-16,1
+75.0,70824.69,500.0,8466.77,3.6,High School,Employed,Single,Rent,2024-10-21,1
+74.0,60674.34,408.0,6892.36,32.3,High School,Unemployed,Married,Mortgage,2023-12-15,1
+46.0,27502.45,567.0,12798.8,2.7,High School,Employed,Single,Mortgage,2024-04-08,0
+46.0,51315.49,784.0,20.21,0.2,Bachelor,Employed,Divorced,Rent,2023-11-22,1
+32.0,,,3133.69,36.7,PhD,Retired,Single,Rent,2023-07-06,1
+77.0,52178.06,814.0,5123.96,1.2,PhD,Employed,Married,Own,2023-05-04,0
+53.0,64481.12,476.0,4638.94,31.5,Master,Employed,Single,Own,2025-05-11,1
+18.0,57771.0,340.0,5867.34,19.1,High School,Retired,Married,Own,2024-08-31,0
+25.0,,,4347.95,31.2,Bachelor,Self-Employed,Divorced,Rent,2023-05-24,1
+37.0,30245.67,525.0,3756.59,33.8,Master,Employed,Single,Rent,2025-08-26,0
+78.0,53907.93,602.0,12326.8,6.4,Bachelor,Employed,Single,Other,2023-07-17,1
+64.0,69619.8,362.0,5992.49,0.8,High School,Employed,Married,Own,2024-09-01,1
+66.0,46677.17,497.0,13223.31,21.4,High School,Employed,Single,Mortgage,2023-10-07,0
+36.0,64674.39,331.0,38612.11,30.7,Bachelor,Employed,Single,Mortgage,2023-10-21,1
+42.0,55362.89,423.0,5299.06,12.0,Bachelor,Employed,Married,Rent,2024-02-05,1
+42.0,61962.26,560.0,18698.26,22.3,Bachelor,Employed,Married,Mortgage,2023-05-03,0
+56.0,36787.05,375.0,5352.37,35.5,Bachelor,Employed,Single,Other,2023-07-03,0
+40.0,97616.63,559.0,1986.9,37.9,High School,Self-Employed,Divorced,Rent,2023-07-22,0
+62.0,22079.77,362.0,797.32,4.8,High School,Employed,Single,Own,2024-03-14,0
+20.0,32085.94,818.0,16543.83,29.1,High School,Employed,Married,Mortgage,2023-09-04,1
+21.0,69472.67,509.0,6339.83,39.6,Bachelor,Employed,Married,Rent,2024-02-20,1
+78.0,42769.3,654.0,9958.24,15.4,PhD,Employed,Single,Own,2025-02-22,0
+61.0,60994.63,474.0,13073.49,19.4,Bachelor,Employed,Single,Mortgage,2025-05-17,0
+28.0,44579.21,526.0,3263.82,39.2,Bachelor,Self-Employed,Married,Other,2025-07-03,1
+70.0,48379.43,835.0,571.26,9.3,High School,Employed,Divorced,Other,2025-07-19,0
+77.0,32382.65,465.0,12123.02,23.9,PhD,Employed,Married,Own,2025-06-14,0
+32.0,89250.5,772.0,2947.86,3.8,Master,Employed,Married,Own,2023-05-10,0
+45.0,43701.5,733.0,17391.3,4.5,Master,Retired,Divorced,Mortgage,2024-09-29,1
+42.0,47108.3,490.0,10159.85,0.5,Bachelor,Employed,Single,Rent,2024-02-07,1
+74.0,39769.48,628.0,14806.77,39.5,High School,Employed,Single,Own,2025-06-13,1
+30.0,77311.71,564.0,42201.69,11.8,High School,Self-Employed,Single,Own,2025-02-16,1
+46.0,64855.3,622.0,13492.48,2.8,Master,Employed,Single,Rent,2025-01-05,0
+74.0,89438.19,352.0,4094.84,5.7,PhD,Self-Employed,Single,Rent,2025-07-10,1
+79.0,53069.15,348.0,7969.75,14.6,Bachelor,Employed,Married,Other,2023-08-08,1
+47.0,61361.84,374.0,5603.4,36.1,Master,Self-Employed,Single,Mortgage,2024-10-03,1
+64.0,26034.32,401.0,14844.85,5.6,High School,Employed,Widowed,Own,2025-07-12,1
+49.0,17645.29,626.0,14957.14,4.2,Bachelor,Employed,Married,Other,2025-01-29,1
+75.0,61096.25,702.0,4522.57,12.8,Bachelor,Self-Employed,Single,Mortgage,2025-03-25,1
+32.0,55273.22,410.0,11894.94,2.8,High School,Employed,Married,Own,2025-07-16,1
+39.0,58567.91,718.0,14996.44,34.2,High School,Self-Employed,Single,Own,2024-09-16,1
+46.0,65639.13,540.0,5154.63,12.5,Bachelor,Retired,Divorced,Other,2025-04-26,1
+52.0,60466.06,440.0,8026.88,10.1,Master,Self-Employed,Married,Own,2025-02-06,1
+50.0,36970.89,613.0,7207.47,1.7,Master,Self-Employed,Divorced,Own,2024-01-22,1
+42.0,32083.4,577.0,5956.19,35.0,High School,Employed,Widowed,Mortgage,2025-09-09,1
+50.0,59583.37,766.0,14473.23,37.6,Master,Retired,Divorced,Own,2024-05-24,0
+66.0,71980.85,460.0,21036.07,13.5,Master,Employed,Divorced,Mortgage,2023-09-25,1
+29.0,46245.22,755.0,7397.36,37.3,High School,Employed,Divorced,Own,2025-04-07,0
+25.0,61160.57,807.0,2434.23,32.2,High School,Employed,Single,Rent,2024-03-17,1
+41.0,66524.85,839.0,2277.38,22.0,Bachelor,Employed,Single,Own,2024-05-11,1
+79.0,27153.86,407.0,2547.51,17.5,PhD,Employed,Divorced,Rent,2023-04-23,1
+77.0,30430.17,734.0,9637.15,38.5,Bachelor,Self-Employed,Married,Mortgage,2024-11-22,0
+72.0,59243.24,713.0,8186.66,8.9,Bachelor,Retired,Married,Mortgage,2023-08-21,1
+62.0,55669.42,592.0,9767.78,2.2,Bachelor,Employed,Single,Own,2025-05-27,1
+75.0,57831.81,471.0,1434.67,0.6,High School,Retired,Single,Mortgage,2024-08-30,1
+49.0,63270.9,604.0,24841.47,1.7,High School,Unemployed,Married,Own,2024-11-02,0
+76.0,34267.57,756.0,4382.89,39.8,High School,Employed,Married,Other,2024-01-09,1
+72.0,31425.56,324.0,3485.18,9.4,Bachelor,Self-Employed,Married,Rent,2025-09-18,1
+25.0,52536.86,508.0,3276.93,20.9,Bachelor,Employed,Married,Rent,2025-04-30,1
+45.0,40543.81,641.0,6953.25,12.7,Bachelor,Employed,Married,Own,2023-08-22,1
+69.0,37566.08,674.0,22851.19,28.6,Bachelor,Employed,Married,Rent,2025-03-03,0
+21.0,75751.48,715.0,53.61,19.6,Bachelor,Self-Employed,Married,Rent,2024-11-07,1
+65.0,,606.0,12166.94,11.5,,Employed,Married,Rent,2023-11-14,0
+43.0,73530.64,424.0,13783.45,37.5,High School,Employed,Single,Rent,2024-10-10,0
+33.0,63533.82,601.0,15375.72,36.0,Bachelor,Employed,Married,Own,2024-02-15,1
+49.0,50391.84,839.0,465.18,32.8,Bachelor,Employed,Single,Own,2025-06-25,0
+48.0,61578.23,786.0,36592.3,18.4,Master,Self-Employed,Married,Rent,2024-12-10,1
+33.0,46624.91,652.0,55892.81,32.2,Bachelor,Employed,Married,Rent,2023-12-25,1
+41.0,41325.29,613.0,2843.68,5.0,Bachelor,Employed,Single,Rent,2023-09-16,0
+54.0,54535.98,619.0,11733.78,7.8,High School,Employed,Single,Mortgage,2025-01-14,1
+20.0,48772.24,774.0,40926.85,10.8,Master,Employed,Married,Rent,2024-09-19,1
+54.0,47365.98,739.0,2449.18,22.1,High School,Self-Employed,Married,Own,2024-09-24,1
+76.0,50954.5,321.0,15383.68,39.6,Bachelor,Retired,Single,Own,2023-10-10,0
+58.0,34311.31,775.0,9090.56,33.5,High School,Self-Employed,Married,Rent,2024-01-12,1
+71.0,59956.06,606.0,15453.82,5.1,Master,Employed,Married,Mortgage,2024-01-20,0
+45.0,56282.59,594.0,23705.66,22.6,Bachelor,Employed,Divorced,Rent,2023-08-13,0
+71.0,60103.48,513.0,4260.04,1.8,Bachelor,Employed,Single,Mortgage,2025-08-21,1
+46.0,65432.57,843.0,1350.83,14.3,High School,Employed,Married,Rent,2025-04-02,0
+46.0,70674.12,623.0,7795.11,6.2,Bachelor,Employed,Married,Rent,2024-04-17,0
+45.0,36251.81,428.0,10936.08,24.9,High School,Employed,Divorced,Own,2023-12-14,1
+19.0,47619.88,561.0,5782.05,2.4,PhD,Employed,Married,Other,2024-05-20,1
+64.0,45878.79,643.0,19527.76,31.1,Master,Unemployed,Married,Own,2024-10-01,0
+49.0,39039.77,760.0,2869.6,11.0,Bachelor,Employed,Single,Mortgage,2025-09-24,1
+70.0,50947.48,621.0,1037.87,15.5,Bachelor,Self-Employed,Single,Mortgage,2025-03-08,1
+74.0,44392.59,529.0,18022.1,23.3,PhD,Employed,Single,Own,2025-07-25,1
+38.0,53903.98,534.0,9843.62,31.7,Bachelor,Employed,Single,Mortgage,2025-07-02,0
+18.0,66126.24,720.0,6219.71,5.7,Master,Employed,Single,Own,2024-09-11,1
+77.0,40971.69,720.0,2914.2,10.7,Bachelor,Employed,Divorced,Own,2025-05-13,1
+62.0,56330.2,532.0,5036.98,8.3,Bachelor,Employed,Single,Own,2025-03-22,1
+22.0,94193.19,747.0,5734.45,23.6,Bachelor,Employed,Married,Rent,2024-10-07,0
+39.0,25527.49,624.0,19259.36,31.8,High School,Employed,Divorced,Mortgage,2025-05-04,1
+69.0,32551.69,623.0,13065.03,12.6,PhD,Employed,Single,Mortgage,2024-07-10,1
+70.0,17392.68,456.0,1534.49,12.5,High School,Self-Employed,Married,Rent,2025-08-25,1
+47.0,49387.13,649.0,11315.7,13.7,Bachelor,Employed,Married,Mortgage,2024-07-31,1
+64.0,73380.2,657.0,43221.82,14.4,Bachelor,Retired,Widowed,Own,2025-03-06,0
+67.0,51035.08,659.0,46138.45,11.0,Bachelor,Employed,Married,Mortgage,2023-03-27,1
+74.0,43347.8,549.0,12532.01,13.3,Bachelor,Retired,Married,Other,2023-08-31,1
+29.0,66421.76,819.0,28122.75,7.8,High School,Employed,Single,Own,2024-11-29,0
+50.0,57459.38,704.0,101.42,8.6,High School,Employed,Married,Rent,2023-06-09,0
+77.0,61556.38,640.0,13969.04,10.5,PhD,Unemployed,Single,Mortgage,2024-06-08,0
+61.0,80786.79,649.0,4973.47,31.2,Bachelor,Employed,Married,Rent,2023-02-05,1
+45.0,51334.28,318.0,2331.39,11.8,PhD,Employed,Married,Own,2024-06-24,1
+44.0,76585.67,814.0,22637.57,17.6,High School,Self-Employed,Divorced,Rent,2023-06-20,0
+50.0,39912.66,848.0,27116.23,2.4,Bachelor,Retired,Married,Own,2024-10-16,0
+73.0,50900.44,472.0,7193.31,25.0,High School,Employed,Married,Own,2025-06-17,1
+36.0,26650.76,770.0,22441.77,3.3,High School,Employed,Single,Own,2025-05-15,1
+69.0,73714.31,456.0,6748.46,12.9,High School,Employed,Divorced,Own,2025-05-05,0
+43.0,58227.95,672.0,2135.77,18.1,High School,Employed,Single,Mortgage,2025-08-10,1
+62.0,52115.55,636.0,10288.37,12.6,PhD,Employed,Single,Own,2025-01-03,0
+46.0,25113.63,512.0,3223.4,26.2,Master,Employed,Married,Mortgage,2023-04-06,0
+54.0,50349.61,677.0,26491.46,12.9,High School,Self-Employed,Single,Mortgage,2024-07-17,1
+44.0,62607.91,504.0,1261.22,11.5,Master,Employed,Divorced,Rent,2023-08-29,1
+53.0,46070.5,321.0,9579.32,29.8,Bachelor,Self-Employed,Married,Mortgage,2025-01-12,1
+62.0,63361.07,753.0,7941.45,6.0,Bachelor,Employed,Single,Mortgage,2024-07-28,1
+52.0,38869.7,438.0,4643.97,27.5,Bachelor,Self-Employed,Divorced,Rent,2024-11-21,1
+61.0,57729.09,776.0,3508.96,33.3,Master,Self-Employed,Divorced,Mortgage,2024-04-05,0
+75.0,59602.85,473.0,437.82,18.8,Bachelor,Self-Employed,Married,Rent,2024-07-07,0
+78.0,40270.06,535.0,2706.08,3.4,PhD,Employed,Divorced,Own,2025-06-05,1
+60.0,69956.58,423.0,1336.75,11.1,Bachelor,Self-Employed,Married,Other,2023-07-26,0
+53.0,70322.68,571.0,2309.46,32.5,High School,Retired,Married,Own,2024-01-28,1
+75.0,39247.01,679.0,795.63,0.6,Master,Employed,Married,Own,2025-03-05,0
+52.0,41983.9,346.0,19648.55,35.8,High School,Employed,Divorced,Own,2024-02-02,1
+42.0,69037.66,848.0,3653.57,5.0,Bachelor,Self-Employed,Married,Own,2025-02-05,0
+37.0,42510.54,602.0,8081.93,7.1,Master,Retired,Divorced,Own,2025-06-02,0
+59.0,35952.29,601.0,11118.66,9.9,Bachelor,Self-Employed,Divorced,Mortgage,2023-08-06,1
+60.0,39587.81,378.0,29449.49,4.3,Master,Unemployed,Single,Own,2023-01-05,1
+58.0,97129.5,487.0,15578.39,25.7,Bachelor,Employed,Married,Rent,2025-02-07,0
+63.0,50428.95,454.0,2244.76,21.0,High School,Self-Employed,Single,Other,2024-10-04,1
+62.0,78395.55,448.0,14392.45,7.8,Bachelor,Employed,Divorced,Own,2025-06-24,1
+79.0,82338.27,374.0,7970.48,31.5,High School,Retired,Married,Own,2024-09-04,1
+42.0,55136.42,793.0,12128.12,18.9,Bachelor,Unemployed,Widowed,Rent,2025-01-08,1
+68.0,,539.0,7887.45,35.2,High School,Employed,Divorced,Mortgage,2024-06-30,1
+51.0,31715.41,764.0,6067.35,29.2,Master,Self-Employed,Married,Mortgage,2024-12-26,1
+45.0,,,13205.2,13.3,High School,Employed,Married,Rent,2024-11-14,1
+61.0,53898.82,582.0,4882.87,37.1,Bachelor,Employed,Married,Rent,2023-04-09,1
+38.0,47842.31,589.0,3618.65,28.3,PhD,Employed,Married,Rent,2025-03-15,1
+58.0,52948.73,664.0,24103.15,23.6,High School,Self-Employed,Single,Own,2024-12-28,0
+23.0,35069.67,383.0,5552.5,35.8,Master,Employed,Married,Own,2024-07-27,1
+35.0,70349.5,490.0,1559.38,3.7,Bachelor,Employed,Married,Own,2024-02-11,1
+19.0,54767.08,646.0,11927.93,18.7,Master,Employed,Divorced,Mortgage,2024-05-17,1
+64.0,58791.58,762.0,2407.44,8.9,Master,Retired,Widowed,Mortgage,2023-02-17,1
+75.0,50811.06,790.0,1473.4,37.7,Bachelor,Unemployed,Married,Rent,2023-02-02,0
+36.0,68927.31,559.0,1215.25,13.1,Bachelor,Employed,Married,Mortgage,2025-02-18,0
+59.0,52453.6,770.0,23361.21,38.6,PhD,Employed,Married,Own,2025-04-19,1
+47.0,83857.97,700.0,5956.82,9.4,Master,Employed,Married,Own,2023-07-20,0
+26.0,77704.7,365.0,4531.14,33.5,Bachelor,Employed,Divorced,Own,2023-05-15,1
+19.0,44151.34,698.0,8229.7,34.9,PhD,Employed,Single,Mortgage,2023-01-28,0
+56.0,62199.45,312.0,28943.63,9.4,High School,Employed,Single,Own,2025-06-07,1
+28.0,70957.47,847.0,18532.82,16.4,High School,Employed,Married,Mortgage,2023-08-19,0
+59.0,65457.1,832.0,42864.74,12.1,Bachelor,Employed,Married,Rent,2024-05-04,0
+79.0,13753.22,556.0,568.06,23.5,Master,Employed,Married,Mortgage,2025-02-11,1
+36.0,61519.75,455.0,4655.34,23.2,Bachelor,Employed,Married,Mortgage,2024-01-14,1
+40.0,88570.59,734.0,115.47,14.1,Bachelor,Unemployed,Single,Mortgage,2023-10-16,1
+38.0,52631.32,518.0,3299.47,19.2,PhD,Employed,Married,Rent,2024-02-23,0
+22.0,36890.74,642.0,1423.06,38.5,Master,Employed,Single,Own,2024-11-05,1
+25.0,70519.78,588.0,5577.35,5.1,Bachelor,Employed,Married,Own,2024-01-27,1
+36.0,65347.12,804.0,7801.14,7.9,Bachelor,Self-Employed,Divorced,Rent,2024-08-15,1
+49.0,40432.2,375.0,7911.69,12.7,Bachelor,Employed,Married,Rent,2024-05-13,0
+25.0,61463.78,799.0,998.79,12.7,Bachelor,Unemployed,Divorced,Other,2023-05-19,1
+21.0,57016.69,525.0,6129.22,8.7,Bachelor,Employed,Single,Mortgage,2023-03-04,0
+41.0,64181.15,744.0,3520.95,26.1,High School,Employed,Widowed,Mortgage,2024-04-16,1
+33.0,51149.24,561.0,990.77,18.1,High School,Unemployed,Single,Own,2024-10-09,1
+46.0,,790.0,2287.35,28.4,,Employed,Married,Rent,2023-05-09,1
+47.0,49848.26,791.0,619.78,12.3,High School,Self-Employed,Married,Own,2025-09-13,1
+67.0,67795.81,601.0,12540.08,29.2,Bachelor,Retired,Divorced,Rent,2024-06-04,0
+57.0,,,7212.4,7.3,Master,Employed,Divorced,Mortgage,2025-04-18,1
+46.0,41492.11,423.0,7787.11,22.8,Bachelor,Unemployed,Single,Mortgage,2025-08-30,1
+77.0,29515.03,821.0,32230.79,23.0,High School,Employed,Divorced,Own,2023-03-06,1
+70.0,34109.12,736.0,12559.21,5.3,Bachelor,Self-Employed,Married,Other,2025-03-23,1
+41.0,38905.72,386.0,455.87,27.3,Master,Retired,Widowed,Mortgage,2023-01-15,0
+25.0,60021.51,526.0,12842.01,21.9,Bachelor,Employed,Married,Own,2023-06-06,1
+59.0,46051.37,849.0,5220.11,23.4,Bachelor,Employed,Married,Own,2023-02-10,0
+75.0,58170.01,478.0,20515.81,37.2,Bachelor,Employed,Single,Mortgage,2024-05-07,1
+65.0,74018.57,517.0,4050.18,10.1,High School,Employed,Single,Rent,2024-01-15,1
+32.0,,318.0,7289.74,31.1,,Unemployed,Married,Own,2023-07-07,0
+72.0,49479.45,324.0,5041.17,1.2,High School,Employed,Widowed,Mortgage,2025-02-02,0
+19.0,63017.74,846.0,14469.75,12.5,High School,Self-Employed,Married,Rent,2023-08-05,1
+48.0,61544.87,365.0,1864.69,30.9,PhD,Retired,Divorced,Mortgage,2025-03-02,0
+69.0,57276.41,418.0,4385.69,9.8,High School,Employed,Married,Own,2023-02-22,0
+30.0,39860.21,400.0,9169.95,26.8,Bachelor,Employed,Married,Rent,2025-05-28,0
+24.0,51901.9,339.0,9874.82,8.5,Bachelor,Self-Employed,Married,Own,2023-12-04,1
+66.0,44536.96,493.0,11502.86,12.7,High School,Employed,Divorced,Rent,2025-01-18,0
+25.0,51808.85,401.0,29709.3,22.9,High School,Retired,Married,Other,2024-12-20,1
+79.0,62077.89,798.0,6043.66,12.1,PhD,Employed,Married,Other,2024-12-25,0
+19.0,59350.99,576.0,2104.93,17.9,High School,Employed,Single,Mortgage,2023-10-23,1
+50.0,84616.88,463.0,17887.55,29.3,Master,Employed,Divorced,Mortgage,2024-12-02,1
+26.0,40173.35,771.0,6961.83,8.3,High School,Employed,Married,Own,2023-09-09,0
+68.0,49225.57,381.0,11574.09,28.0,High School,Self-Employed,Divorced,Mortgage,2024-12-27,1
+45.0,67912.73,361.0,6146.86,39.0,Bachelor,Unemployed,Divorced,Other,2024-04-06,1
+36.0,45026.2,367.0,21574.16,11.3,Bachelor,Self-Employed,Single,Mortgage,2024-03-31,1
+72.0,41555.09,778.0,6190.1,35.3,Bachelor,Self-Employed,Single,Rent,2024-09-18,1
+56.0,46193.8,352.0,2116.18,2.3,Bachelor,Employed,Married,Rent,2025-03-26,1
+23.0,52942.51,497.0,15401.13,36.1,Master,Self-Employed,Divorced,Own,2025-05-12,1
+66.0,67497.51,789.0,2838.65,4.9,Master,Unemployed,Divorced,Mortgage,2023-09-27,0
+54.0,35995.43,497.0,1731.93,33.2,Bachelor,Retired,Single,Rent,2023-07-21,0
+72.0,59569.5,337.0,21433.14,22.4,High School,Unemployed,Single,Mortgage,2023-06-11,0
+66.0,60347.95,730.0,725.74,8.0,Master,Employed,Single,Own,2024-07-09,0
+21.0,52501.54,347.0,30690.58,14.0,Bachelor,Self-Employed,Single,Rent,2024-12-30,0
+52.0,41190.96,300.0,20692.77,35.6,Master,Self-Employed,Married,Mortgage,2024-02-06,0
+57.0,45175.65,363.0,4500.93,14.9,High School,Employed,Married,Mortgage,2024-12-03,0
+48.0,27592.56,364.0,21342.14,35.7,Master,Employed,Divorced,Own,2024-04-21,1
+40.0,56863.14,322.0,460.04,16.7,High School,Employed,Widowed,Own,2025-04-01,1
+66.0,52564.56,426.0,6442.64,4.9,Bachelor,Self-Employed,Married,Own,2025-02-10,1
+65.0,30385.14,720.0,279.05,27.7,Bachelor,Employed,Single,Rent,2023-04-16,1
+25.0,64058.35,404.0,17800.35,13.0,High School,Employed,Married,Other,2024-07-19,1
+28.0,,475.0,3445.99,33.5,,Unemployed,Married,Own,2024-01-25,0
+69.0,39833.21,531.0,1789.84,30.3,Master,Unemployed,Single,Own,2023-01-02,1
+41.0,27795.74,690.0,3460.41,18.5,Bachelor,Employed,Single,Rent,2025-08-03,0
+73.0,56642.1,693.0,1219.38,30.0,High School,Self-Employed,Single,Rent,2025-09-19,1
+60.0,32200.38,412.0,463.78,7.8,Bachelor,Unemployed,Married,Other,2024-07-15,0
+64.0,31609.2,532.0,5154.44,7.3,Master,Employed,Single,Own,2023-03-22,1
+32.0,44216.93,377.0,1301.43,11.2,Bachelor,Employed,Divorced,Mortgage,2023-07-25,1
+78.0,62350.29,560.0,7491.52,10.2,High School,Employed,Single,Rent,2023-02-04,1
+42.0,54877.0,403.0,5770.66,32.3,High School,Retired,Married,Own,2025-02-14,0
+57.0,41871.51,582.0,1213.61,4.6,High School,Self-Employed,Widowed,Rent,2024-05-23,1
+65.0,49701.78,806.0,13734.83,18.6,High School,Unemployed,Married,Rent,2024-03-03,1
+65.0,67072.56,340.0,15822.39,20.9,Bachelor,Employed,Divorced,Own,2024-03-30,1
+18.0,49252.87,785.0,513.13,32.0,Bachelor,Employed,Married,Mortgage,2024-01-02,1
+71.0,38232.32,644.0,951.04,24.1,High School,Employed,Married,Rent,2023-04-02,0
+58.0,49949.74,519.0,27530.55,28.1,Bachelor,Self-Employed,Single,Rent,2023-12-06,0
+42.0,32140.27,399.0,14288.86,25.9,Bachelor,Self-Employed,Single,Other,2025-06-16,1
+50.0,40250.4,340.0,4767.89,39.5,PhD,Employed,Single,Other,2024-07-18,1
+18.0,40306.86,823.0,13448.0,5.1,Bachelor,Retired,Married,Own,2023-12-12,0
+39.0,52691.25,834.0,7547.7,24.5,Master,Self-Employed,Married,Mortgage,2025-02-15,1
+79.0,49422.62,527.0,32574.44,11.2,Bachelor,Retired,Divorced,Mortgage,2023-08-30,1
+28.0,70339.56,804.0,2616.91,4.7,High School,Retired,Single,Other,2023-01-14,0
+39.0,68774.77,477.0,8060.45,20.5,Master,Retired,Married,Rent,2023-11-12,0
+79.0,53158.52,372.0,9157.19,18.6,Master,Retired,Married,Own,2024-08-23,1
+41.0,50671.5,374.0,2921.68,27.4,Bachelor,Self-Employed,Single,Mortgage,2024-01-23,1
+79.0,79245.99,327.0,11317.79,31.6,High School,Retired,Divorced,Own,2023-10-01,1
+52.0,45889.33,418.0,10234.18,9.4,Bachelor,Employed,Married,Mortgage,2023-06-16,0
+26.0,43477.61,765.0,22062.18,17.1,High School,Employed,Married,Own,2025-04-20,1
+78.0,62037.06,413.0,2623.97,28.0,Bachelor,Employed,Divorced,Rent,2025-01-10,1
+29.0,43858.17,533.0,10989.28,18.2,Bachelor,Employed,Divorced,Own,2024-10-08,1
+75.0,37140.88,330.0,48003.19,36.1,High School,Self-Employed,Single,Own,2025-03-29,1
+40.0,46468.15,473.0,2793.56,21.2,Bachelor,Employed,Divorced,Rent,2024-04-29,0
+22.0,60985.18,325.0,1950.33,28.4,Bachelor,Employed,Single,Rent,2025-09-17,1
+59.0,52922.79,386.0,27049.63,6.6,Master,Employed,Married,Rent,2024-05-19,0
+61.0,21617.24,711.0,11616.77,15.4,High School,Self-Employed,Married,Rent,2025-04-11,1
+69.0,51239.84,740.0,30463.34,26.5,PhD,Self-Employed,Married,Mortgage,2023-09-01,1
+70.0,47575.61,501.0,18472.23,15.8,Bachelor,Employed,Widowed,Own,2024-07-20,1
+79.0,52421.6,730.0,8889.99,34.1,Bachelor,Retired,Married,Mortgage,2025-05-25,1
+77.0,44446.86,631.0,4306.98,27.1,PhD,Employed,Married,Mortgage,2024-07-16,1
+44.0,63156.18,344.0,7831.19,11.1,Bachelor,Employed,Married,Mortgage,2025-08-20,1
+37.0,47547.99,684.0,8647.43,25.1,High School,Self-Employed,Married,Rent,2024-11-17,1
+45.0,38850.65,459.0,4314.19,32.7,High School,Employed,Single,Mortgage,2025-08-15,1
+59.0,73745.46,649.0,9900.29,22.6,Bachelor,Self-Employed,Married,Mortgage,2023-07-09,0
+29.0,31740.43,374.0,2322.76,31.6,Bachelor,Employed,Divorced,Own,2025-02-21,0
+20.0,47581.87,583.0,7011.87,32.4,Master,Employed,Divorced,Rent,2024-11-30,0
+70.0,66885.18,779.0,13183.14,5.4,PhD,Employed,Single,Rent,2024-04-20,1
+19.0,45507.36,832.0,718.49,23.5,Bachelor,Self-Employed,Single,Mortgage,2024-11-12,1
+26.0,73509.62,679.0,11359.96,34.9,Master,Unemployed,Married,Rent,2024-05-25,0
+38.0,58403.39,459.0,19256.7,5.8,Bachelor,Employed,Divorced,Own,2023-02-28,1
+63.0,48004.13,781.0,5347.78,21.8,High School,Employed,Widowed,Own,2024-04-19,1
+71.0,47620.17,383.0,4612.13,12.3,Master,Unemployed,Single,Mortgage,2024-07-14,0
+34.0,28442.5,436.0,5218.14,30.6,High School,Employed,Divorced,Mortgage,2025-05-06,1
+52.0,47917.06,503.0,37375.23,17.6,Master,Employed,Married,Own,2025-01-17,0
+79.0,56680.98,498.0,735.3,11.9,Bachelor,Unemployed,Married,Own,2023-09-10,0
+70.0,45976.05,447.0,9699.78,14.2,Bachelor,Employed,Married,Own,2023-01-22,1
+51.0,65235.3,735.0,6125.3,31.7,High School,Self-Employed,Married,Own,2023-11-10,1
+34.0,48439.25,315.0,133.4,26.1,Master,Self-Employed,Married,Mortgage,2024-04-04,0
+65.0,61442.71,501.0,5753.32,35.4,Bachelor,Employed,Divorced,Mortgage,2023-06-10,1
+20.0,44652.02,476.0,4803.63,4.2,High School,Employed,Single,Rent,2023-10-04,1
+77.0,70224.2,606.0,9153.6,18.7,High School,Unemployed,Married,Mortgage,2025-08-13,1
+30.0,,,4489.63,31.9,Master,Employed,Married,Own,2023-07-11,1
+73.0,65152.12,637.0,5065.82,17.7,Bachelor,Self-Employed,Single,Rent,2024-01-21,1
+53.0,61943.13,594.0,3735.16,26.5,Bachelor,Employed,Single,Other,2025-03-16,0
+53.0,49248.21,692.0,8921.66,15.4,Bachelor,Self-Employed,Married,Mortgage,2024-02-18,0
+71.0,62941.95,804.0,14018.75,25.1,Bachelor,Employed,Married,Own,2024-05-06,0
+35.0,54713.06,665.0,12936.27,23.8,Bachelor,Self-Employed,Married,Own,2023-12-10,1
+47.0,50495.41,427.0,5382.28,11.0,Bachelor,Employed,Married,Own,2025-02-08,0
+34.0,65076.53,365.0,1888.76,18.8,Master,Employed,Married,Mortgage,2023-11-05,1
+71.0,69134.67,376.0,3828.79,26.9,High School,Employed,Married,Own,2024-10-23,1
+62.0,43538.11,309.0,3505.43,12.7,Master,Self-Employed,Single,Own,2023-05-11,1
+53.0,15129.81,730.0,22229.5,2.2,High School,Employed,Married,Mortgage,2024-10-25,0
+27.0,42070.07,400.0,255.61,31.4,High School,Employed,Married,Mortgage,2025-05-21,0
+51.0,30634.46,762.0,8529.43,33.8,Master,Self-Employed,Married,Other,2023-04-10,1
+49.0,55618.78,663.0,24210.12,31.4,Bachelor,Employed,Married,Mortgage,2024-01-08,1
+21.0,38294.85,535.0,6825.54,0.7,High School,Unemployed,Single,Other,2023-03-29,0
+66.0,43761.99,554.0,5353.17,30.9,Bachelor,Employed,Married,Own,2024-04-03,1
+53.0,34332.58,767.0,2396.35,18.6,Master,Employed,Single,Other,2023-11-27,1
+39.0,61428.78,553.0,1711.75,37.9,High School,Employed,Divorced,Mortgage,2023-08-03,1
+23.0,51630.03,768.0,5614.32,37.3,High School,Employed,Single,Rent,2024-04-11,0
+43.0,15830.74,428.0,23408.85,11.5,High School,Employed,Married,Mortgage,2023-05-02,1
+65.0,48487.66,679.0,10126.96,33.5,High School,Self-Employed,Single,Mortgage,2024-09-06,0
+39.0,-2172.54,316.0,32783.66,15.6,Master,Employed,Single,Own,2023-01-21,1
+18.0,,,29798.73,10.9,High School,Self-Employed,Single,Rent,2024-12-01,1
+19.0,85724.55,471.0,8029.4,31.8,Bachelor,Employed,Divorced,Other,2023-03-13,1
+32.0,88599.87,652.0,18314.33,25.9,Bachelor,Employed,Married,Own,2023-04-17,1
+75.0,65599.89,626.0,4398.31,4.4,PhD,Employed,Single,Rent,2023-09-28,1
+21.0,57400.75,382.0,8181.8,1.0,Bachelor,Employed,Married,Own,2025-05-10,1
+47.0,46988.12,583.0,8060.48,14.6,Bachelor,Employed,Married,Other,2024-03-11,1
+53.0,44753.24,343.0,23252.03,20.5,Bachelor,Employed,Married,Rent,2023-04-13,1
